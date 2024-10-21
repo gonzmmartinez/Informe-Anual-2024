@@ -1,7 +1,7 @@
 # Limpiar todo
 rm(list = ls())
 
-# Librerías
+# Librer?as
 library(ggplot2)
 library(dplyr)
 library(stringr)
@@ -19,9 +19,9 @@ Raw <- read.csv(paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Da
   filter(Imputar == "No")
 
 Data <- Raw %>%
-  select(P6) %>%
-  mutate(P6 = factor(P6)) %>%
-  group_by(P6) %>%
+  select(P11) %>%
+  mutate(P11 = factor(P11)) %>%
+  group_by(P11) %>%
   summarise(Cantidad = n()) %>%
   mutate(Porcentaje = 100 * Cantidad / sum(Cantidad)) %>%
   mutate(ymax = cumsum(Porcentaje)) %>%
@@ -45,12 +45,11 @@ Paleta <- c("#e54c7c",
              "#1daa6a",
              "#747264")
 
-Colores <- c("Primaria" = "#e54c7c",
-             "Superior (Unversitario/Terciario)" = "#1daa6a",
-             "Secundaria" = "#f2904c")
+Colores <- c("Sí" = "#f2904c",
+             "No" = "#e6e8eb")
 
-# Gráfico1
-grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=2.5, fill=P6)) +
+# Gr?fico1
+grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=2.5, fill=P11)) +
   geom_rect() +
   geom_richtext(aes(x = xpos, y=ymid, label=Label),
                 color = "black",
@@ -59,20 +58,23 @@ grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=2.5, fill=P6)) +
   coord_polar(theta="y") +
   xlim(c(1.5, 6)) +
   theme_void() +
-  scale_fill_manual(values = Colores, labels = function(z) str_wrap(z, width=10)) +
+  scale_fill_manual(values = Colores) +
   theme(text=element_text(family="font"),
         legend.position = "right",
         plot.title = element_text(family="font", size=25, face="bold", hjust=0.5),
         plot.subtitle = element_text(size=12, family="font"),
         legend.title = element_blank(),
         legend.text = element_text(size=15),
-        plot.margin = margin(t=-100, b=-150, r=0, l=-150),
+        plot.margin = margin(t=-150, b=-150, r=0, l=-150),
         legend.box.margin = margin(t=0, r=0, b=0, l=-150),
-        legend.key.spacing.y = unit(0.5, "cm"),
         plot.background = element_rect(fill = "white", colour = NA))
 
 # Guardar gráfico
-ggsave(filename="Nivel_estudio.png", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
-       plot=grafico, dpi=100, width=7, height=5)
-ggsave(filename="Nivel_estudio.svg", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
-       plot=grafico, dpi=72, width=7, height=5)
+filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
+                    str_length(unlist(basename(rstudioapi::getSourceEditorContext()$path)))-2)
+
+ggsave(filename = paste0(filename, ".png"),
+       path = paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
+       plot=grafico, dpi=100, width=6, height=5)
+ggsave(filename = paste0(filename, ".svg"), path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
+       plot=grafico, dpi=72, width=6, height=5)

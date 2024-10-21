@@ -19,10 +19,9 @@ Raw <- read.csv(paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Da
   filter(Imputar == "No")
 
 Data <- Raw %>%
-  select(P9) %>%
-  mutate(P9 = ifelse(P9 == "Constantementes", "Constantemente", P9)) %>%
-  mutate(P9 = factor(P9, levels=c("Nunca", "A veces", "Constantemente"))) %>%
-  group_by(P9) %>%
+  select(P6) %>%
+  mutate(P6 = factor(P6)) %>%
+  group_by(P6) %>%
   summarise(Cantidad = n()) %>%
   mutate(Porcentaje = 100 * Cantidad / sum(Cantidad)) %>%
   mutate(ymax = cumsum(Porcentaje)) %>%
@@ -46,12 +45,12 @@ Paleta <- c("#e54c7c",
              "#1daa6a",
              "#747264")
 
-Colores <- c("Nunca" = "#e6e0f0",
-             "A veces" = "#ed9cb5",
-             "Constantemente" = "#e54c7c")
+Colores <- c("Primaria" = "#e54c7c",
+             "Superior (Unversitario/Terciario)" = "#1daa6a",
+             "Secundaria" = "#f2904c")
 
 # Gráfico1
-grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=2.5, fill=P9)) +
+grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=2.5, fill=P6)) +
   geom_rect() +
   geom_richtext(aes(x = xpos, y=ymid, label=Label),
                 color = "black",
@@ -67,13 +66,17 @@ grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=2.5, fill=P9)) +
         plot.subtitle = element_text(size=12, family="font"),
         legend.title = element_blank(),
         legend.text = element_text(size=15),
-        plot.margin = margin(t=-150, b=-150, r=0, l=-150),
+        plot.margin = margin(t=-100, b=-150, r=0, l=-150),
         legend.box.margin = margin(t=0, r=0, b=0, l=-150),
         legend.key.spacing.y = unit(0.5, "cm"),
         plot.background = element_rect(fill = "white", colour = NA))
 
 # Guardar gráfico
-ggsave(filename="Frecuencia_comentarios.png", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
+filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
+                    str_length(unlist(basename(rstudioapi::getSourceEditorContext()$path)))-2)
+
+ggsave(filename = paste0(filename, ".png"),
+       path = paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
        plot=grafico, dpi=100, width=7, height=5)
-ggsave(filename="Frecuencia_comentarios.svg", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
+ggsave(filename = paste0(filename, ".svg"), path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
        plot=grafico, dpi=72, width=7, height=5)

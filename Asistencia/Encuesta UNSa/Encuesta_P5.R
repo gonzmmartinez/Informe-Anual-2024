@@ -16,15 +16,15 @@ showtext_auto()
 
 # Crear datos
 Raw <- read.csv(paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Datos/Respuestas_unsa.csv")) %>%
-  filter(Imputar == "No") %>%
-  select(P10)
+  filter(Imputar == "No")
 
-Data <- data.frame(Sujeto = unlist(strsplit(paste0(Raw$P10, collapse=", "), ", "))) %>%
-  group_by(Sujeto) %>%
+Data1 <- Raw %>%
+  select(P5) %>%
+  group_by(P5) %>%
   summarise(Cantidad = n()) %>%
   ungroup() %>%
-  mutate(Sujeto = ifelse(Cantidad < 3, "Otro", Sujeto)) %>%
-  group_by(Sujeto) %>%
+  mutate(P5 = ifelse(Cantidad < 3, "Otras", P5)) %>%
+  group_by(P5) %>%
   summarise(Cantidad = sum(Cantidad)) %>%
   mutate(Porcentaje = 100 * Cantidad / sum(Cantidad)) %>%
   mutate(ymax = cumsum(Porcentaje)) %>%
@@ -33,11 +33,11 @@ Data <- data.frame(Sujeto = unlist(strsplit(paste0(Raw$P10, collapse=", "), ", "
   mutate(ymid = ymax - (ymax - ymin)/2) %>%
   ungroup()
 
-Levels <- (Data %>%
-  arrange(Porcentaje))$Sujeto
+Levels <- (Data1 %>%
+  arrange(Porcentaje))$P5
 
-Data <- Data %>%
-  mutate(Sujeto = factor(Sujeto, levels=Levels))
+Data1 <- Data1 %>%
+  mutate(P5 = factor(P5, levels=Levels))
 
 # Definir colores
 Colores <- c("#6e3169",
@@ -56,24 +56,23 @@ Colores <- c("#6e3169",
 Total <- paste0(paste0("<span style='font-size:20pt'>",
                        "Total",
                        "</span><br><span style='font-size:30pt'>**",
-                       formatC(sum(Data$Cantidad), big.mark = ".", decimal.mark = ","),
+                       formatC(sum(Data1$Cantidad), big.mark = ".", decimal.mark = ","),
                        "**</span>"))
 
 # Gráfico
-grafico <- ggplot(Data, aes(y=Sujeto, x=Porcentaje, fill=Porcentaje)) +
+grafico <- ggplot(Data1, aes(y=P5, x=Porcentaje, fill=Porcentaje)) +
   geom_col() +
   geom_text(aes(label = paste0(formatC(round(Porcentaje,1), big.mark = ".", decimal.mark = ","), "%")),
             size=5, color = "black", hjust = -0.2, family="font") +
   theme_light() +
-  labs(y="Géneros de las personas respondientes") +
-  scale_fill_gradient2(low="#266f9b", high="#c93131", mid="#6e3169", labels = function(z) str_wrap(z, width=5)) +
-  scale_x_continuous(limits = c(0, max(Data$Porcentaje + 10)), labels = function(z) paste0(z, "%")) +
+  labs(y="Orientaciones sexuales de las personas respondientes", x="Porcentaje") +
+  scale_fill_gradient2(low="#6e3169", high="#f2904c", mid="#c93131", midpoint=mean(Data1$Porcentaje), labels = function(z) str_wrap(z, width=5)) +
+  scale_x_continuous(limits = c(0, max(Data1$Porcentaje + 10)), labels = function(z) paste0(z, "%")) +
   theme(text=element_text(family="font"), legend.position="none",
         plot.title = element_text(size=20, family="font", face="bold"),
         plot.subtitle = element_text(size=15, family="font"),
         plot.caption = element_text(size=12, family="font", face="italic"),
         panel.grid.major = element_line(colour = "#F5F5F5"),
-        panel.grid.major.y = element_blank(),
         axis.text.x = element_text(size=10, margin = margin(t=10,r=0,b=5,l=0)),
         axis.text.y = element_text(size=15, margin = margin(t=0,r=10,b=0,l=5)),
         axis.title.x = element_text(size=15),
