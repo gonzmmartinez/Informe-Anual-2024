@@ -333,93 +333,93 @@ Año,Distrito,Género,Rango_etario,Frecuencia,Ord_rango_etario
 2023,Norte-Tartagal,Varones,50-59 años,162,6
 2023,Norte-Tartagal,Varones,60-74 años,68,7
 2023,Norte-Tartagal,Varones,Sin especificar,1618,9
+2024,Centro,Mujeres,0-17 años,56,1
+2024,Centro,Mujeres,18-21 años,230,2
+2024,Centro,Mujeres,22-29 años,1403,3
+2024,Centro,Mujeres,30-39 años,1575,4
+2024,Centro,Mujeres,40-49 años,873,5
+2024,Centro,Mujeres,50-59 años,352,6
+2024,Centro,Mujeres,60-74 años,219,7
+2024,Centro,Mujeres,Más de 74 años,48,8
+2024,Centro,Mujeres,Sin especificar,3563,9
+2024,Centro,Varones,0-17 años,111,1
+2024,Centro,Varones,18-21 años,609,2
+2024,Centro,Varones,22-29 años,2605,3
+2024,Centro,Varones,30-39 años,3226,4
+2024,Centro,Varones,40-49 años,1885,5
+2024,Centro,Varones,50-59 años,794,6
+2024,Centro,Varones,60-74 años,473,7
+2024,Centro,Varones,Más de 74 años,159,8
+2024,Centro,Varones,Sin especificar,5487,9
+2024,Norte-Orán,Mujeres,0-17 años,12,1
+2024,Norte-Orán,Mujeres,18-21 años,40,2
+2024,Norte-Orán,Mujeres,22-29 años,176,3
+2024,Norte-Orán,Mujeres,30-39 años,242,4
+2024,Norte-Orán,Mujeres,40-49 años,116,5
+2024,Norte-Orán,Mujeres,50-59 años,42,6
+2024,Norte-Orán,Mujeres,60-74 años,18,7
+2024,Norte-Orán,Mujeres,Más de 74 años,10,8
+2024,Norte-Orán,Mujeres,Sin especificar,636,9
+2024,Norte-Orán,Varones,0-17 años,27,1
+2024,Norte-Orán,Varones,18-21 años,107,2
+2024,Norte-Orán,Varones,22-29 años,474,3
+2024,Norte-Orán,Varones,30-39 años,538,4
+2024,Norte-Orán,Varones,40-49 años,261,5
+2024,Norte-Orán,Varones,50-59 años,87,6
+2024,Norte-Orán,Varones,60-74 años,45,7
+2024,Norte-Orán,Varones,Más de 74 años,17,8
+2024,Norte-Orán,Varones,Sin especificar,1299,9
+2024,Norte-Tartagal,Mujeres,0-17 años,8,1
+2024,Norte-Tartagal,Mujeres,18-21 años,57,2
+2024,Norte-Tartagal,Mujeres,22-29 años,168,3
+2024,Norte-Tartagal,Mujeres,30-39 años,207,4
+2024,Norte-Tartagal,Mujeres,40-49 años,110,5
+2024,Norte-Tartagal,Mujeres,50-59 años,38,6
+2024,Norte-Tartagal,Mujeres,60-74 años,15,7
+2024,Norte-Tartagal,Mujeres,Más de 74 años,16,8
+2024,Norte-Tartagal,Mujeres,Sin especificar,879,9
+2024,Norte-Tartagal,Varones,0-17 años,19,1
+2024,Norte-Tartagal,Varones,18-21 años,118,2
+2024,Norte-Tartagal,Varones,22-29 años,409,3
+2024,Norte-Tartagal,Varones,30-39 años,505,4
+2024,Norte-Tartagal,Varones,40-49 años,287,5
+2024,Norte-Tartagal,Varones,50-59 años,132,6
+2024,Norte-Tartagal,Varones,60-74 años,51,7
+2024,Norte-Tartagal,Varones,Más de 74 años,32,8
+2024,Norte-Tartagal,Varones,Sin especificar,1611,9
 2024,Sur-Anta,Mujeres,0-17 años,0,1
 2024,Sur-Anta,Mujeres,18-21 años,3,2
-2024,Sur-Anta,Mujeres,22-29 años,24,3
-2024,Sur-Anta,Mujeres,30-39 años,39,4
-2024,Sur-Anta,Mujeres,40-49 años,24,5
-2024,Sur-Anta,Mujeres,50-59 años,8,6
-2024,Sur-Anta,Mujeres,60-74 años,7,7
+2024,Sur-Anta,Mujeres,22-29 años,42,3
+2024,Sur-Anta,Mujeres,30-39 años,59,4
+2024,Sur-Anta,Mujeres,40-49 años,31,5
+2024,Sur-Anta,Mujeres,50-59 años,15,6
+2024,Sur-Anta,Mujeres,60-74 años,8,7
 2024,Sur-Anta,Mujeres,Más de 74 años,2,8
-2024,Sur-Anta,Mujeres,Sin especificar,145,9
-2024,Sur-Anta,Varones,0-17 años,9,1
-2024,Sur-Anta,Varones,18-21 años,13,2
-2024,Sur-Anta,Varones,22-29 años,101,3
-2024,Sur-Anta,Varones,30-39 años,78,4
-2024,Sur-Anta,Varones,40-49 años,44,5
-2024,Sur-Anta,Varones,50-59 años,18,6
-2024,Sur-Anta,Varones,60-74 años,17,7
+2024,Sur-Anta,Mujeres,Sin especificar,230,9
+2024,Sur-Anta,Varones,0-17 años,10,1
+2024,Sur-Anta,Varones,18-21 años,17,2
+2024,Sur-Anta,Varones,22-29 años,137,3
+2024,Sur-Anta,Varones,30-39 años,124,4
+2024,Sur-Anta,Varones,40-49 años,61,5
+2024,Sur-Anta,Varones,50-59 años,25,6
+2024,Sur-Anta,Varones,60-74 años,18,7
 2024,Sur-Anta,Varones,Más de 74 años,6,8
-2024,Sur-Anta,Varones,Sin especificar,351,9
-2024,Centro,Mujeres,0-17 años,40,1
-2024,Centro,Mujeres,18-21 años,163,2
-2024,Centro,Mujeres,22-29 años,939,3
-2024,Centro,Mujeres,30-39 años,1078,4
-2024,Centro,Mujeres,40-49 años,597,5
-2024,Centro,Mujeres,50-59 años,238,6
-2024,Centro,Mujeres,60-74 años,154,7
-2024,Centro,Mujeres,Más de 74 años,36,8
-2024,Centro,Mujeres,Sin especificar,2460,9
-2024,Centro,Varones,0-17 años,70,1
-2024,Centro,Varones,18-21 años,394,2
-2024,Centro,Varones,22-29 años,1836,3
-2024,Centro,Varones,30-39 años,2159,4
-2024,Centro,Varones,40-49 años,1251,5
-2024,Centro,Varones,50-59 años,561,6
-2024,Centro,Varones,60-74 años,285,7
-2024,Centro,Varones,Más de 74 años,110,8
-2024,Centro,Varones,Sin especificar,3600,9
-2024,Sur-Metán,Mujeres,0-17 años,12,1
-2024,Sur-Metán,Mujeres,18-21 años,19,2
-2024,Sur-Metán,Mujeres,22-29 años,55,3
-2024,Sur-Metán,Mujeres,30-39 años,51,4
-2024,Sur-Metán,Mujeres,40-49 años,31,5
-2024,Sur-Metán,Mujeres,50-59 años,16,6
-2024,Sur-Metán,Mujeres,60-74 años,8,7
-2024,Sur-Metán,Mujeres,Más de 74 años,13,8
-2024,Sur-Metán,Mujeres,Sin especificar,295,9
-2024,Sur-Metán,Varones,0-17 años,10,1
-2024,Sur-Metán,Varones,18-21 años,33,2
-2024,Sur-Metán,Varones,22-29 años,114,3
-2024,Sur-Metán,Varones,30-39 años,145,4
-2024,Sur-Metán,Varones,40-49 años,88,5
-2024,Sur-Metán,Varones,50-59 años,35,6
-2024,Sur-Metán,Varones,60-74 años,22,7
-2024,Sur-Metán,Varones,Más de 74 años,46,8
-2024,Sur-Metán,Varones,Sin especificar,522,9
-2024,Norte-Orán,Mujeres,0-17 años,8,1
-2024,Norte-Orán,Mujeres,18-21 años,25,2
-2024,Norte-Orán,Mujeres,22-29 años,118,3
-2024,Norte-Orán,Mujeres,30-39 años,164,4
-2024,Norte-Orán,Mujeres,40-49 años,79,5
-2024,Norte-Orán,Mujeres,50-59 años,18,6
-2024,Norte-Orán,Mujeres,60-74 años,11,7
-2024,Norte-Orán,Mujeres,Más de 74 años,5,8
-2024,Norte-Orán,Mujeres,Sin especificar,417,9
-2024,Norte-Orán,Varones,0-17 años,21,1
-2024,Norte-Orán,Varones,18-21 años,83,2
-2024,Norte-Orán,Varones,22-29 años,331,3
-2024,Norte-Orán,Varones,30-39 años,362,4
-2024,Norte-Orán,Varones,40-49 años,180,5
-2024,Norte-Orán,Varones,50-59 años,61,6
-2024,Norte-Orán,Varones,60-74 años,34,7
-2024,Norte-Orán,Varones,Más de 74 años,15,8
-2024,Norte-Orán,Varones,Sin especificar,911,9
-2024,Norte-Tartagal,Mujeres,0-17 años,5,1
-2024,Norte-Tartagal,Mujeres,18-21 años,44,2
-2024,Norte-Tartagal,Mujeres,22-29 años,113,3
-2024,Norte-Tartagal,Mujeres,30-39 años,140,4
-2024,Norte-Tartagal,Mujeres,40-49 años,75,5
-2024,Norte-Tartagal,Mujeres,50-59 años,23,6
-2024,Norte-Tartagal,Mujeres,60-74 años,12,7
-2024,Norte-Tartagal,Mujeres,Más de 74 años,13,8
-2024,Norte-Tartagal,Mujeres,Sin especificar,571,9
-2024,Norte-Tartagal,Varones,0-17 años,9,1
-2024,Norte-Tartagal,Varones,18-21 años,76,2
-2024,Norte-Tartagal,Varones,22-29 años,279,3
-2024,Norte-Tartagal,Varones,30-39 años,336,4
-2024,Norte-Tartagal,Varones,40-49 años,177,5
-2024,Norte-Tartagal,Varones,50-59 años,79,6
-2024,Norte-Tartagal,Varones,60-74 años,33,7
-2024,Norte-Tartagal,Varones,Más de 74 años,30,8
-2024,Norte-Tartagal,Varones,Sin especificar,1060,9
+2024,Sur-Anta,Varones,Sin especificar,564,9
+2024,Sur-Metán,Mujeres,0-17 años,16,1
+2024,Sur-Metán,Mujeres,18-21 años,22,2
+2024,Sur-Metán,Mujeres,22-29 años,100,3
+2024,Sur-Metán,Mujeres,30-39 años,78,4
+2024,Sur-Metán,Mujeres,40-49 años,63,5
+2024,Sur-Metán,Mujeres,50-59 años,26,6
+2024,Sur-Metán,Mujeres,60-74 años,11,7
+2024,Sur-Metán,Mujeres,Más de 74 años,15,8
+2024,Sur-Metán,Mujeres,Sin especificar,414,9
+2024,Sur-Metán,Varones,0-17 años,12,1
+2024,Sur-Metán,Varones,18-21 años,44,2
+2024,Sur-Metán,Varones,22-29 años,175,3
+2024,Sur-Metán,Varones,30-39 años,215,4
+2024,Sur-Metán,Varones,40-49 años,127,5
+2024,Sur-Metán,Varones,50-59 años,44,6
+2024,Sur-Metán,Varones,60-74 años,33,7
+2024,Sur-Metán,Varones,Más de 74 años,53,8
+2024,Sur-Metán,Varones,Sin especificar,757,9

@@ -105,7 +105,11 @@ grafico <- plot_grid(grafico2, grafico1, ncol=2,
   theme(plot.background = element_rect(fill = "white", colour = NA))
 
 # Guardar gráfico
-ggsave(filename="Denuncias_genero_victima.png", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
+filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
+                    str_length(unlist(basename(rstudioapi::getSourceEditorContext()$path)))-2)
+
+ggsave(filename = paste0(filename, ".png"),
+       path = paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
        plot=grafico, dpi=100, width=10, height=5)
-ggsave(filename="Denuncias_genero_victima.svg", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
+ggsave(filename = paste0(filename, ".svg"), path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
        plot=grafico, dpi=72, width=10, height=5)

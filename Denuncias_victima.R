@@ -109,7 +109,11 @@ grafico2 <- ggplot(Data2, aes(x=Porcentaje, y=reorder(Rango_etario, Ord_rango_et
 grafico <- plot_grid(grafico2, grafico1, nrow=2, rel_heights = c(2,3))
 
 # Guardar gráfico
-ggsave(filename="Denuncias_victima.png", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
+filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
+                    str_length(unlist(basename(rstudioapi::getSourceEditorContext()$path)))-2)
+
+ggsave(filename = paste0(filename, ".png"),
+       path = paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
        plot=grafico, dpi=100, width=8, height=8)
-ggsave(filename="Denuncias_victima.svg", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
+ggsave(filename = paste0(filename, ".svg"), path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
        plot=grafico, dpi=72, width=8, height=8)

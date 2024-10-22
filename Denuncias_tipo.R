@@ -72,8 +72,8 @@ grafico1 <- ggplot(Data1, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=2.25, fill=Tipo
   xlim(c(1.5, 4)) +
   theme_void() +
   scale_fill_manual(values = Colores) +
-  labs(title="2024",
-       subtitle = "Primer semestre") +
+  labs(title="2.024",
+       subtitle = "enero-septiembre") +
   theme(text=element_text(family="font"),
         legend.position = "right",
         plot.title = element_text(family="font", size=25, face="bold", hjust=0.5),
@@ -94,7 +94,7 @@ grafico2 <- ggplot(Data2, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=2.25, fill=Tipo
   xlim(c(1.5, 4.5)) +
   theme_void() +
   scale_fill_manual(values = Colores) +
-  labs(title="2023",
+  labs(title="2.023",
        subtitle="Todo el año") +
   theme(text=element_text(family="font"),
         legend.position = "none",
@@ -110,7 +110,11 @@ grafico <- plot_grid(grafico2, grafico1, ncol=2,
   theme(plot.background = element_rect(fill = "white", colour = NA))
 
 # Guardar gráfico
-ggsave(filename="Denuncias_tipo.png", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
+filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
+                    str_length(unlist(basename(rstudioapi::getSourceEditorContext()$path)))-2)
+
+ggsave(filename = paste0(filename, ".png"),
+       path = paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
        plot=grafico, dpi=100, width=10, height=5)
-ggsave(filename="Denuncias_tipo.svg", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
+ggsave(filename = paste0(filename, ".svg"), path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
        plot=grafico, dpi=72, width=10, height=5)
