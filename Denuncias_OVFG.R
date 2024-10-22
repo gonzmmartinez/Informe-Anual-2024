@@ -88,7 +88,7 @@ grafico1 <- ggplot(Data1, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Tipo)) 
   xlim(c(1.5, 4)) +
   theme_void() +
   scale_fill_manual(values = Colores) +
-  labs(title="2024",
+  labs(title="2.024",
        subtitle = "enero-septiembre") +
   theme(text=element_text(family="font"),
         legend.position = "right",
@@ -115,7 +115,7 @@ grafico2 <- ggplot(Data2, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Tipo)) 
   xlim(c(1.5, 4)) +
   theme_void() +
   scale_fill_manual(values = Colores) +
-  labs(title="2023",
+  labs(title="2.023",
        subtitle="Todo el año") +
   theme(text=element_text(family="font"),
         legend.position = "none",
