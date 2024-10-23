@@ -13,6 +13,7 @@ library(geogrid)
 library(sf)
 library(tmap)
 library(ggspatial)
+library(ggpmisc)
 
 # Fuentes
 library(showtext)
@@ -27,7 +28,7 @@ Data_femicidios <- read.csv(paste0(dirname(rstudioapi::getActiveDocumentContext(
 
 # Modificar datos
 Data_femicidios <- Data_femicidios %>%
-  filter(Año == 2024) %>%
+  filter(Año == 2023) %>%
   group_by(Localidad) %>%
   summarise(Cantidad = n()) %>%
   ungroup %>%

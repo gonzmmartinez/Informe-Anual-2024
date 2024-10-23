@@ -9,6 +9,8 @@ library(ggplot2)
 library(dplyr)
 library(stringr)
 library(directlabels)
+library(forecast)
+library(tseries)
 
 # Fuentes
 library(showtext)
@@ -18,24 +20,29 @@ showtext_auto()
 # Crear datos
 Raw <- read.csv(paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Datos/Denuncias_OVFG.csv"))
 
-Data <- Raw %>%
+# Crear serie temporal
+Data_trimestral <- Raw %>%
   mutate(Año = factor(Año)) %>%
-  filter(Tipo %in% c("Familiar", "Género")) %>%
-  group_by(Año) %>%
+  filter(Tipo %in% c("Familiar","Género")) %>%
+  group_by(Año, Trimestre) %>%
   summarise(Cantidad = sum(Frecuencia)) %>%
   ungroup
 
-Estimacion <- Raw %>%
-  mutate(Año = factor(Año)) %>%
-  filter(Tipo %in% c("Familiar", "Género")) %>%
-  group_by(Año, Trimestre) %>%
-  summarise(Cantidad = sum(Frecuencia)) %>%
-  ungroup %>%
-  filter(Trimestre == 4) %>%
-  group_by %>%
-  summarise(Cantidad = round(mean(Cantidad)))
+Data_ts <- ts(Data_trimestral$Cantidad, start=c(2020, 1), frequency=4)
 
-Estimacion <- (Data %>% filter(Año == 2024))$Cantidad + Estimacion$Cantidad
+# Crear modelo ARIMA
+Modelo_ARIMA <- auto.arima(Data_ts)
+
+# Crear proyección
+Prediccion <- forecast(Modelo_ARIMA, h=1)
+
+# Añadir nuevo dato
+Data <- Data_trimestral %>%
+  group_by(Año) %>%
+  summarise(Cantidad = sum(Cantidad)) %>%
+  ungroup
+
+Estimacion <- (Data %>% filter(Año == 2024))$Cantidad + round(as.numeric(Prediccion$mean))
 
 # Colores
 Colores <- c("#6e3169", "#ec6489")

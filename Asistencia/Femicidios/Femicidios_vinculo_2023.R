@@ -15,10 +15,14 @@ font_add_google("Barlow", "font")
 showtext_auto()
 
 # Crear datos
-Raw <- data.frame(Categorias = factor(c("Sí", "No", "Sin dato"), levels=c("Sí", "No", "Sin dato")),
-                   Cantidad = c(5, 4, 1))
+Raw <- read.csv(paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Datos/Data_femicidios.csv"))
 
 Data <- Raw %>%
+  filter(Año == 2023) %>%
+  select(Vinculo.con.el.agresor) %>%
+  group_by(Vinculo.con.el.agresor) %>%
+  summarise(Cantidad = n()) %>%
+  ungroup() %>%
   mutate(Porcentaje = 100 * Cantidad / sum(Cantidad)) %>%
   mutate(Label = ifelse(Porcentaje < 10,
                         paste0("<span style='font-size:15pt'>**",
@@ -29,32 +33,30 @@ Data <- Raw %>%
                                formatC(round(Porcentaje,1), big.mark=".", decimal.mark=","),
                                "%**</span><br><span style='font-size:10pt'>",
                                formatC(Cantidad, big.mark = ".", decimal.mark = ",","</span>")))) %>%
+  ungroup()
+
+Data <- Data %>%
+  mutate(Vinculo.con.el.agresor = factor(Vinculo.con.el.agresor, levels = (Data %>% arrange(desc(Porcentaje)))$Vinculo.con.el.agresor)) %>%
+  arrange(desc(Porcentaje)) %>%
   mutate(ymax = cumsum(Porcentaje)) %>%
   mutate(ymin = c(0, head(ymax, n=-1))) %>%
   rowwise() %>%
-  mutate(ymid = ymax - (ymax - ymin)/2) %>%
-  ungroup()
-
-Total <- paste0(paste0("<span style='font-size:30pt'>",
-                       "Total",
-                       "</span><br><span style='font-size:100pt'>**",
-                       formatC(sum(Data$Cantidad), big.mark = ".", decimal.mark = ","),
-                       "**</span>"))
+  mutate(ymid = ymax - (ymax - ymin)/2)
 
 # Definir colores
-Colores <- c("Sí" = "#1da1aa",
-             "No" = "#e54c7c",
+Paleta <- c("#6e3169", "#a5549c", "#e54c7c", "#f2904c", "#ffd241", "#1daa6a", "#1da1aa", "#747264")
+
+Colores <- c("Pareja" = "#a5549c",
+             "Ex pareja" = "#1da1aa",
+             "Familiar" = "#ffd241",
+             "Conocidos" = "#f2904c",
+             "Sin vínculo" = "#1daa6a",
              "Sin dato" = "#e6e8eb")
 
 # Gráfico
-grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Categorias)) +
+grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=2.5, fill=Vinculo.con.el.agresor)) +
   geom_rect() +
-  geom_richtext(y=0, x=1.5,
-                label=Total, size=20,
-                color = "black",
-                label.color = NA, family="font",
-                show.legend=FALSE, fill=NA) +
-  geom_richtext(aes(x = ifelse(Porcentaje <= 5, 4.4, 3.5), y=ymid, label=Label),
+  geom_richtext(aes(x = ifelse(Porcentaje <= 5, 4.4, 3.3), y=ymid, label=Label),
                 color = "black",
                 label.color = NA, family="font",
                 show.legend=FALSE, fill=NA) +
@@ -70,13 +72,12 @@ grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Categoria
         legend.text = element_text(size=15),
         legend.box.margin = margin(t=5,b=5,l=-40,r=40),
         legend.key.spacing.y = unit(0.5, "cm"),
-        plot.margin = unit(c(-3,0,-3,0), "cm"),
+        plot.margin = margin(t=-50, r=-50, b=-50, l=-70),
         plot.background = element_rect(fill = "white", colour = NA))
 
 # Layout
 grafico <- grafico +
   theme(plot.background = element_rect(fill = "white", colour = NA))
-
 
 # Guardar gráfico
 filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
@@ -84,6 +85,6 @@ filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
 
 ggsave(filename = paste0(filename, ".png"),
        path = paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
-       plot=grafico, dpi=100, width=9, height=6)
+       plot=grafico, dpi=100, width=7, height=5)
 ggsave(filename = paste0(filename, ".svg"), path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
-       plot=grafico, dpi=72, width=9, height=6)
+       plot=grafico, dpi=72, width=7, height=5)

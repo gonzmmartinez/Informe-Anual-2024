@@ -19,7 +19,7 @@ showtext_auto()
 Raw <- read.csv(paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Datos/Data_femicidios.csv"))
 
 Data <- Raw %>%
-  filter(Año == 2024) %>%
+  filter(Año == 2023) %>%
   select(Lugar.del.hecho) %>%
   group_by(Lugar.del.hecho) %>%
   summarise(Cantidad = n()) %>%

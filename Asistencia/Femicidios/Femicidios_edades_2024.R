@@ -60,10 +60,13 @@ grafico <- ggplot(Data, aes(x=Edades, y=Cantidad, fill=Cantidad)) +
         axis.title.y = element_text(size=20))
 
 # Guardar gráfico
-ggsave(filename="Femicidios_edades_2024.png", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
-       plot=grafico, dpi=100, width=12, height=7)
+filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
+                    str_length(unlist(basename(rstudioapi::getSourceEditorContext()$path)))-2)
 
-ggsave(filename="Femicidios_edades_2024.svg", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
+ggsave(filename = paste0(filename, ".png"),
+       path = paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
+       plot=grafico, dpi=100, width=12, height=7)
+ggsave(filename = paste0(filename, ".svg"), path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
        plot=grafico, dpi=72, width=12, height=7)
 
 # Fuente: Elaboración propia a partir de la información remitida por la Oficina de Violencia Familiar y de Género. Corte de Justicia de Salta
