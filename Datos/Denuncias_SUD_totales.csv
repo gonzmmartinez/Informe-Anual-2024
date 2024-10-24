@@ -1,0 +1,529 @@
+Año,Mes,Distrito,Dependencia,Tipo,Cantidad
+2023,Noviembre,Centro,Judiciales,Penal por violencia de género,157
+2023,Noviembre,Centro,Judiciales,Penal por violencia familiar,52
+2023,Noviembre,Centro,Judiciales,Violencia no penal,57
+2023,Noviembre,Centro,Judiciales,Penal,858
+2023,Noviembre,Centro,Policiales,Penal por violencia de género,978
+2023,Noviembre,Centro,Policiales,Penal por violencia familiar,314
+2023,Noviembre,Centro,Policiales,Violencia no penal,476
+2023,Noviembre,Centro,Policiales,Penal,5739
+2023,Noviembre,Cafayate,Judiciales,Penal por violencia de género,2
+2023,Noviembre,Cafayate,Judiciales,Penal por violencia familiar,0
+2023,Noviembre,Cafayate,Judiciales,Violencia no penal,0
+2023,Noviembre,Cafayate,Judiciales,Penal,6
+2023,Noviembre,Cafayate,Policiales,Penal por violencia de género,24
+2023,Noviembre,Cafayate,Policiales,Penal por violencia familiar,6
+2023,Noviembre,Cafayate,Policiales,Violencia no penal,33
+2023,Noviembre,Cafayate,Policiales,Penal,129
+2023,Noviembre,Orán,Judiciales,Penal por violencia de género,41
+2023,Noviembre,Orán,Judiciales,Penal por violencia familiar,0
+2023,Noviembre,Orán,Judiciales,Violencia no penal,9
+2023,Noviembre,Orán,Judiciales,Penal,38
+2023,Noviembre,Orán,Policiales,Penal por violencia de género,170
+2023,Noviembre,Orán,Policiales,Penal por violencia familiar,5
+2023,Noviembre,Orán,Policiales,Violencia no penal,78
+2023,Noviembre,Orán,Policiales,Penal,842
+2023,Noviembre,Metán,Judiciales,Penal por violencia de género,8
+2023,Noviembre,Metán,Judiciales,Penal por violencia familiar,0
+2023,Noviembre,Metán,Judiciales,Violencia no penal,18
+2023,Noviembre,Metán,Judiciales,Penal,25
+2023,Noviembre,Metán,Policiales,Penal por violencia de género,194
+2023,Noviembre,Metán,Policiales,Penal por violencia familiar,0
+2023,Noviembre,Metán,Policiales,Violencia no penal,56
+2023,Noviembre,Metán,Policiales,Penal,697
+2023,Noviembre,Anta,Judiciales,Penal por violencia de género,2
+2023,Noviembre,Anta,Judiciales,Penal por violencia familiar,0
+2023,Noviembre,Anta,Judiciales,Violencia no penal,14
+2023,Noviembre,Anta,Judiciales,Penal,9
+2023,Noviembre,Anta,Policiales,Penal por violencia de género,17
+2023,Noviembre,Anta,Policiales,Penal por violencia familiar,0
+2023,Noviembre,Anta,Policiales,Violencia no penal,15
+2023,Noviembre,Anta,Policiales,Penal,88
+2023,Noviembre,Tartagal,Judiciales,Penal por violencia de género,10
+2023,Noviembre,Tartagal,Judiciales,Penal por violencia familiar,0
+2023,Noviembre,Tartagal,Judiciales,Violencia no penal,13
+2023,Noviembre,Tartagal,Judiciales,Penal,16
+2023,Noviembre,Tartagal,Policiales,Penal por violencia de género,267
+2023,Noviembre,Tartagal,Policiales,Penal por violencia familiar,3
+2023,Noviembre,Tartagal,Policiales,Violencia no penal,187
+2023,Noviembre,Tartagal,Policiales,Penal,1128
+2023,Diciembre,Centro,Judiciales,Penal por violencia de género,166
+2023,Diciembre,Centro,Judiciales,Penal por violencia familiar,76
+2023,Diciembre,Centro,Judiciales,Violencia no penal,30
+2023,Diciembre,Centro,Judiciales,Penal,991
+2023,Diciembre,Centro,Policiales,Penal por violencia de género,1027
+2023,Diciembre,Centro,Policiales,Penal por violencia familiar,337
+2023,Diciembre,Centro,Policiales,Violencia no penal,537
+2023,Diciembre,Centro,Policiales,Penal,5686
+2023,Diciembre,Cafayate,Judiciales,Penal por violencia de género,0
+2023,Diciembre,Cafayate,Judiciales,Penal por violencia familiar,1
+2023,Diciembre,Cafayate,Judiciales,Violencia no penal,0
+2023,Diciembre,Cafayate,Judiciales,Penal,6
+2023,Diciembre,Cafayate,Policiales,Penal por violencia de género,36
+2023,Diciembre,Cafayate,Policiales,Penal por violencia familiar,9
+2023,Diciembre,Cafayate,Policiales,Violencia no penal,15
+2023,Diciembre,Cafayate,Policiales,Penal,130
+2023,Diciembre,Orán,Judiciales,Penal por violencia de género,34
+2023,Diciembre,Orán,Judiciales,Penal por violencia familiar,0
+2023,Diciembre,Orán,Judiciales,Violencia no penal,8
+2023,Diciembre,Orán,Judiciales,Penal,3
+2023,Diciembre,Orán,Policiales,Penal por violencia de género,216
+2023,Diciembre,Orán,Policiales,Penal por violencia familiar,8
+2023,Diciembre,Orán,Policiales,Violencia no penal,64
+2023,Diciembre,Orán,Policiales,Penal,881
+2023,Diciembre,Metán,Judiciales,Penal por violencia de género,6
+2023,Diciembre,Metán,Judiciales,Penal por violencia familiar,0
+2023,Diciembre,Metán,Judiciales,Violencia no penal,7
+2023,Diciembre,Metán,Judiciales,Penal,18
+2023,Diciembre,Metán,Policiales,Penal por violencia de género,174
+2023,Diciembre,Metán,Policiales,Penal por violencia familiar,5
+2023,Diciembre,Metán,Policiales,Violencia no penal,51
+2023,Diciembre,Metán,Policiales,Penal,756
+2023,Diciembre,Anta,Judiciales,Penal por violencia de género,4
+2023,Diciembre,Anta,Judiciales,Penal por violencia familiar,0
+2023,Diciembre,Anta,Judiciales,Violencia no penal,16
+2023,Diciembre,Anta,Judiciales,Penal,4
+2023,Diciembre,Anta,Policiales,Penal por violencia de género,32
+2023,Diciembre,Anta,Policiales,Penal por violencia familiar,1
+2023,Diciembre,Anta,Policiales,Violencia no penal,6
+2023,Diciembre,Anta,Policiales,Penal,131
+2023,Diciembre,Tartagal,Judiciales,Penal por violencia de género,7
+2023,Diciembre,Tartagal,Judiciales,Penal por violencia familiar,0
+2023,Diciembre,Tartagal,Judiciales,Violencia no penal,8
+2023,Diciembre,Tartagal,Judiciales,Penal,4
+2023,Diciembre,Tartagal,Policiales,Penal por violencia de género,293
+2023,Diciembre,Tartagal,Policiales,Penal por violencia familiar,14
+2023,Diciembre,Tartagal,Policiales,Violencia no penal,169
+2023,Diciembre,Tartagal,Policiales,Penal,1143
+2024,Enero,Centro,Judiciales,Penal por violencia de género,122
+2024,Enero,Centro,Judiciales,Penal por violencia familiar,56
+2024,Enero,Centro,Judiciales,Violencia no penal,18
+2024,Enero,Centro,Judiciales,Penal,481
+2024,Enero,Centro,Policiales,Penal por violencia de género,1081
+2024,Enero,Centro,Policiales,Penal por violencia familiar,357
+2024,Enero,Centro,Policiales,Violencia no penal,656
+2024,Enero,Centro,Policiales,Penal,5804
+2024,Enero,Cafayate,Judiciales,Penal por violencia de género,0
+2024,Enero,Cafayate,Judiciales,Penal por violencia familiar,0
+2024,Enero,Cafayate,Judiciales,Violencia no penal,0
+2024,Enero,Cafayate,Judiciales,Penal,0
+2024,Enero,Cafayate,Policiales,Penal por violencia de género,34
+2024,Enero,Cafayate,Policiales,Penal por violencia familiar,9
+2024,Enero,Cafayate,Policiales,Violencia no penal,19
+2024,Enero,Cafayate,Policiales,Penal,132
+2024,Enero,Orán,Judiciales,Penal por violencia de género,23
+2024,Enero,Orán,Judiciales,Penal por violencia familiar,1
+2024,Enero,Orán,Judiciales,Violencia no penal,7
+2024,Enero,Orán,Judiciales,Penal,5
+2024,Enero,Orán,Policiales,Penal por violencia de género,212
+2024,Enero,Orán,Policiales,Penal por violencia familiar,22
+2024,Enero,Orán,Policiales,Violencia no penal,104
+2024,Enero,Orán,Policiales,Penal,808
+2024,Enero,Metán,Judiciales,Penal por violencia de género,9
+2024,Enero,Metán,Judiciales,Penal por violencia familiar,0
+2024,Enero,Metán,Judiciales,Violencia no penal,4
+2024,Enero,Metán,Judiciales,Penal,14
+2024,Enero,Metán,Policiales,Penal por violencia de género,171
+2024,Enero,Metán,Policiales,Penal por violencia familiar,3
+2024,Enero,Metán,Policiales,Violencia no penal,59
+2024,Enero,Metán,Policiales,Penal,740
+2024,Enero,Anta,Judiciales,Penal por violencia de género,1
+2024,Enero,Anta,Judiciales,Penal por violencia familiar,0
+2024,Enero,Anta,Judiciales,Violencia no penal,6
+2024,Enero,Anta,Judiciales,Penal,9
+2024,Enero,Anta,Policiales,Penal por violencia de género,42
+2024,Enero,Anta,Policiales,Penal por violencia familiar,0
+2024,Enero,Anta,Policiales,Violencia no penal,10
+2024,Enero,Anta,Policiales,Penal,147
+2024,Enero,Tartagal,Judiciales,Penal por violencia de género,3
+2024,Enero,Tartagal,Judiciales,Penal por violencia familiar,0
+2024,Enero,Tartagal,Judiciales,Violencia no penal,9
+2024,Enero,Tartagal,Judiciales,Penal,6
+2024,Enero,Tartagal,Policiales,Penal por violencia de género,271
+2024,Enero,Tartagal,Policiales,Penal por violencia familiar,12
+2024,Enero,Tartagal,Policiales,Violencia no penal,156
+2024,Enero,Tartagal,Policiales,Penal,1123
+2024,Febrero,Centro,Judiciales,Penal por violencia de género,141
+2024,Febrero,Centro,Judiciales,Penal por violencia familiar,58
+2024,Febrero,Centro,Judiciales,Violencia no penal,27
+2024,Febrero,Centro,Judiciales,Penal,478
+2024,Febrero,Centro,Policiales,Penal por violencia de género,988
+2024,Febrero,Centro,Policiales,Penal por violencia familiar,343
+2024,Febrero,Centro,Policiales,Violencia no penal,620
+2024,Febrero,Centro,Policiales,Penal,5644
+2024,Febrero,Cafayate,Judiciales,Penal por violencia de género,0
+2024,Febrero,Cafayate,Judiciales,Penal por violencia familiar,0
+2024,Febrero,Cafayate,Judiciales,Violencia no penal,0
+2024,Febrero,Cafayate,Judiciales,Penal,2
+2024,Febrero,Cafayate,Policiales,Penal por violencia de género,39
+2024,Febrero,Cafayate,Policiales,Penal por violencia familiar,6
+2024,Febrero,Cafayate,Policiales,Violencia no penal,19
+2024,Febrero,Cafayate,Policiales,Penal,152
+2024,Febrero,Orán,Judiciales,Penal por violencia de género,19
+2024,Febrero,Orán,Judiciales,Penal por violencia familiar,1
+2024,Febrero,Orán,Judiciales,Violencia no penal,16
+2024,Febrero,Orán,Judiciales,Penal,14
+2024,Febrero,Orán,Policiales,Penal por violencia de género,193
+2024,Febrero,Orán,Policiales,Penal por violencia familiar,18
+2024,Febrero,Orán,Policiales,Violencia no penal,76
+2024,Febrero,Orán,Policiales,Penal,863
+2024,Febrero,Metán,Judiciales,Penal por violencia de género,19
+2024,Febrero,Metán,Judiciales,Penal por violencia familiar,1
+2024,Febrero,Metán,Judiciales,Violencia no penal,8
+2024,Febrero,Metán,Judiciales,Penal,10
+2024,Febrero,Metán,Policiales,Penal por violencia de género,152
+2024,Febrero,Metán,Policiales,Penal por violencia familiar,3
+2024,Febrero,Metán,Policiales,Violencia no penal,54
+2024,Febrero,Metán,Policiales,Penal,651
+2024,Febrero,Anta,Judiciales,Penal por violencia de género,4
+2024,Febrero,Anta,Judiciales,Penal por violencia familiar,0
+2024,Febrero,Anta,Judiciales,Violencia no penal,10
+2024,Febrero,Anta,Judiciales,Penal,10
+2024,Febrero,Anta,Policiales,Penal por violencia de género,33
+2024,Febrero,Anta,Policiales,Penal por violencia familiar,0
+2024,Febrero,Anta,Policiales,Violencia no penal,14
+2024,Febrero,Anta,Policiales,Penal,107
+2024,Febrero,Tartagal,Judiciales,Penal por violencia de género,6
+2024,Febrero,Tartagal,Judiciales,Penal por violencia familiar,0
+2024,Febrero,Tartagal,Judiciales,Violencia no penal,14
+2024,Febrero,Tartagal,Judiciales,Penal,6
+2024,Febrero,Tartagal,Policiales,Penal por violencia de género,246
+2024,Febrero,Tartagal,Policiales,Penal por violencia familiar,4
+2024,Febrero,Tartagal,Policiales,Violencia no penal,157
+2024,Febrero,Tartagal,Policiales,Penal,1018
+2024,Marzo,Centro,Judiciales,Penal por violencia de género,163
+2024,Marzo,Centro,Judiciales,Penal por violencia familiar,62
+2024,Marzo,Centro,Judiciales,Violencia no penal,19
+2024,Marzo,Centro,Judiciales,Penal,496
+2024,Marzo,Centro,Policiales,Penal por violencia de género,1208
+2024,Marzo,Centro,Policiales,Penal por violencia familiar,465
+2024,Marzo,Centro,Policiales,Violencia no penal,711
+2024,Marzo,Centro,Policiales,Penal,5989
+2024,Marzo,Cafayate,Judiciales,Penal por violencia de género,2
+2024,Marzo,Cafayate,Judiciales,Penal por violencia familiar,0
+2024,Marzo,Cafayate,Judiciales,Violencia no penal,0
+2024,Marzo,Cafayate,Judiciales,Penal,5
+2024,Marzo,Cafayate,Policiales,Penal por violencia de género,25
+2024,Marzo,Cafayate,Policiales,Penal por violencia familiar,13
+2024,Marzo,Cafayate,Policiales,Violencia no penal,11
+2024,Marzo,Cafayate,Policiales,Penal,152
+2024,Marzo,Orán,Judiciales,Penal por violencia de género,22
+2024,Marzo,Orán,Judiciales,Penal por violencia familiar,1
+2024,Marzo,Orán,Judiciales,Violencia no penal,4
+2024,Marzo,Orán,Judiciales,Penal,11
+2024,Marzo,Orán,Policiales,Penal por violencia de género,179
+2024,Marzo,Orán,Policiales,Penal por violencia familiar,35
+2024,Marzo,Orán,Policiales,Violencia no penal,83
+2024,Marzo,Orán,Policiales,Penal,817
+2024,Marzo,Metán,Judiciales,Penal por violencia de género,11
+2024,Marzo,Metán,Judiciales,Penal por violencia familiar,0
+2024,Marzo,Metán,Judiciales,Violencia no penal,6
+2024,Marzo,Metán,Judiciales,Penal,17
+2024,Marzo,Metán,Policiales,Penal por violencia de género,134
+2024,Marzo,Metán,Policiales,Penal por violencia familiar,3
+2024,Marzo,Metán,Policiales,Violencia no penal,49
+2024,Marzo,Metán,Policiales,Penal,705
+2024,Marzo,Anta,Judiciales,Penal por violencia de género,4
+2024,Marzo,Anta,Judiciales,Penal por violencia familiar,0
+2024,Marzo,Anta,Judiciales,Violencia no penal,6
+2024,Marzo,Anta,Judiciales,Penal,8
+2024,Marzo,Anta,Policiales,Penal por violencia de género,33
+2024,Marzo,Anta,Policiales,Penal por violencia familiar,0
+2024,Marzo,Anta,Policiales,Violencia no penal,11
+2024,Marzo,Anta,Policiales,Penal,108
+2024,Marzo,Tartagal,Judiciales,Penal por violencia de género,8
+2024,Marzo,Tartagal,Judiciales,Penal por violencia familiar,0
+2024,Marzo,Tartagal,Judiciales,Violencia no penal,27
+2024,Marzo,Tartagal,Judiciales,Penal,10
+2024,Marzo,Tartagal,Policiales,Penal por violencia de género,283
+2024,Marzo,Tartagal,Policiales,Penal por violencia familiar,8
+2024,Marzo,Tartagal,Policiales,Violencia no penal,181
+2024,Marzo,Tartagal,Policiales,Penal,1029
+2024,Abril,Centro,Judiciales,Penal por violencia de género,146
+2024,Abril,Centro,Judiciales,Penal por violencia familiar,77
+2024,Abril,Centro,Judiciales,Violencia no penal,19
+2024,Abril,Centro,Judiciales,Penal,533
+2024,Abril,Centro,Policiales,Penal por violencia de género,933
+2024,Abril,Centro,Policiales,Penal por violencia familiar,353
+2024,Abril,Centro,Policiales,Violencia no penal,522
+2024,Abril,Centro,Policiales,Penal,5508
+2024,Abril,Cafayate,Judiciales,Penal por violencia de género,2
+2024,Abril,Cafayate,Judiciales,Penal por violencia familiar,0
+2024,Abril,Cafayate,Judiciales,Violencia no penal,0
+2024,Abril,Cafayate,Judiciales,Penal,4
+2024,Abril,Cafayate,Policiales,Penal por violencia de género,29
+2024,Abril,Cafayate,Policiales,Penal por violencia familiar,8
+2024,Abril,Cafayate,Policiales,Violencia no penal,10
+2024,Abril,Cafayate,Policiales,Penal,112
+2024,Abril,Orán,Judiciales,Penal por violencia de género,20
+2024,Abril,Orán,Judiciales,Penal por violencia familiar,1
+2024,Abril,Orán,Judiciales,Violencia no penal,4
+2024,Abril,Orán,Judiciales,Penal,5
+2024,Abril,Orán,Policiales,Penal por violencia de género,201
+2024,Abril,Orán,Policiales,Penal por violencia familiar,19
+2024,Abril,Orán,Policiales,Violencia no penal,106
+2024,Abril,Orán,Policiales,Penal,852
+2024,Abril,Metán,Judiciales,Penal por violencia de género,12
+2024,Abril,Metán,Judiciales,Penal por violencia familiar,0
+2024,Abril,Metán,Judiciales,Violencia no penal,5
+2024,Abril,Metán,Judiciales,Penal,19
+2024,Abril,Metán,Policiales,Penal por violencia de género,144
+2024,Abril,Metán,Policiales,Penal por violencia familiar,2
+2024,Abril,Metán,Policiales,Violencia no penal,35
+2024,Abril,Metán,Policiales,Penal,642
+2024,Abril,Anta,Judiciales,Penal por violencia de género,5
+2024,Abril,Anta,Judiciales,Penal por violencia familiar,0
+2024,Abril,Anta,Judiciales,Violencia no penal,7
+2024,Abril,Anta,Judiciales,Penal,3
+2024,Abril,Anta,Policiales,Penal por violencia de género,23
+2024,Abril,Anta,Policiales,Penal por violencia familiar,0
+2024,Abril,Anta,Policiales,Violencia no penal,13
+2024,Abril,Anta,Policiales,Penal,99
+2024,Abril,Tartagal,Judiciales,Penal por violencia de género,21
+2024,Abril,Tartagal,Judiciales,Penal por violencia familiar,0
+2024,Abril,Tartagal,Judiciales,Violencia no penal,13
+2024,Abril,Tartagal,Judiciales,Penal,17
+2024,Abril,Tartagal,Policiales,Penal por violencia de género,225
+2024,Abril,Tartagal,Policiales,Penal por violencia familiar,9
+2024,Abril,Tartagal,Policiales,Violencia no penal,135
+2024,Abril,Tartagal,Policiales,Penal,1115
+2024,Mayo,Centro,Judiciales,Penal por violencia de género,145
+2024,Mayo,Centro,Judiciales,Penal por violencia familiar,80
+2024,Mayo,Centro,Judiciales,Violencia no penal,25
+2024,Mayo,Centro,Judiciales,Penal,509
+2024,Mayo,Centro,Policiales,Penal por violencia de género,798
+2024,Mayo,Centro,Policiales,Penal por violencia familiar,271
+2024,Mayo,Centro,Policiales,Violencia no penal,480
+2024,Mayo,Centro,Policiales,Penal,5200
+2024,Mayo,Cafayate,Judiciales,Penal por violencia de género,1
+2024,Mayo,Cafayate,Judiciales,Penal por violencia familiar,0
+2024,Mayo,Cafayate,Judiciales,Violencia no penal,0
+2024,Mayo,Cafayate,Judiciales,Penal,5
+2024,Mayo,Cafayate,Policiales,Penal por violencia de género,20
+2024,Mayo,Cafayate,Policiales,Penal por violencia familiar,9
+2024,Mayo,Cafayate,Policiales,Violencia no penal,17
+2024,Mayo,Cafayate,Policiales,Penal,118
+2024,Mayo,Orán,Judiciales,Penal por violencia de género,24
+2024,Mayo,Orán,Judiciales,Penal por violencia familiar,2
+2024,Mayo,Orán,Judiciales,Violencia no penal,5
+2024,Mayo,Orán,Judiciales,Penal,10
+2024,Mayo,Orán,Policiales,Penal por violencia de género,179
+2024,Mayo,Orán,Policiales,Penal por violencia familiar,31
+2024,Mayo,Orán,Policiales,Violencia no penal,74
+2024,Mayo,Orán,Policiales,Penal,839
+2024,Mayo,Metán,Judiciales,Penal por violencia de género,21
+2024,Mayo,Metán,Judiciales,Penal por violencia familiar,0
+2024,Mayo,Metán,Judiciales,Violencia no penal,3
+2024,Mayo,Metán,Judiciales,Penal,17
+2024,Mayo,Metán,Policiales,Penal por violencia de género,147
+2024,Mayo,Metán,Policiales,Penal por violencia familiar,3
+2024,Mayo,Metán,Policiales,Violencia no penal,45
+2024,Mayo,Metán,Policiales,Penal,659
+2024,Mayo,Anta,Judiciales,Penal por violencia de género,5
+2024,Mayo,Anta,Judiciales,Penal por violencia familiar,0
+2024,Mayo,Anta,Judiciales,Violencia no penal,10
+2024,Mayo,Anta,Judiciales,Penal,8
+2024,Mayo,Anta,Policiales,Penal por violencia de género,24
+2024,Mayo,Anta,Policiales,Penal por violencia familiar,1
+2024,Mayo,Anta,Policiales,Violencia no penal,15
+2024,Mayo,Anta,Policiales,Penal,108
+2024,Mayo,Tartagal,Judiciales,Penal por violencia de género,9
+2024,Mayo,Tartagal,Judiciales,Penal por violencia familiar,0
+2024,Mayo,Tartagal,Judiciales,Violencia no penal,13
+2024,Mayo,Tartagal,Judiciales,Penal,5
+2024,Mayo,Tartagal,Policiales,Penal por violencia de género,228
+2024,Mayo,Tartagal,Policiales,Penal por violencia familiar,9
+2024,Mayo,Tartagal,Policiales,Violencia no penal,107
+2024,Mayo,Tartagal,Policiales,Penal,940
+2024,Junio,Centro,Judiciales,Penal por violencia de género,131
+2024,Junio,Centro,Judiciales,Penal por violencia familiar,61
+2024,Junio,Centro,Judiciales,Violencia no penal,29
+2024,Junio,Centro,Judiciales,Penal,462
+2024,Junio,Centro,Policiales,Penal por violencia de género,907
+2024,Junio,Centro,Policiales,Penal por violencia familiar,352
+2024,Junio,Centro,Policiales,Violencia no penal,462
+2024,Junio,Centro,Policiales,Penal,5377
+2024,Junio,Cafayate,Judiciales,Penal por violencia de género,3
+2024,Junio,Cafayate,Judiciales,Penal por violencia familiar,0
+2024,Junio,Cafayate,Judiciales,Violencia no penal,0
+2024,Junio,Cafayate,Judiciales,Penal,5
+2024,Junio,Cafayate,Policiales,Penal por violencia de género,41
+2024,Junio,Cafayate,Policiales,Penal por violencia familiar,7
+2024,Junio,Cafayate,Policiales,Violencia no penal,9
+2024,Junio,Cafayate,Policiales,Penal,124
+2024,Junio,Orán,Judiciales,Penal por violencia de género,18
+2024,Junio,Orán,Judiciales,Penal por violencia familiar,0
+2024,Junio,Orán,Judiciales,Violencia no penal,7
+2024,Junio,Orán,Judiciales,Penal,13
+2024,Junio,Orán,Policiales,Penal por violencia de género,191
+2024,Junio,Orán,Policiales,Penal por violencia familiar,18
+2024,Junio,Orán,Policiales,Violencia no penal,84
+2024,Junio,Orán,Policiales,Penal,822
+2024,Junio,Metán,Judiciales,Penal por violencia de género,24
+2024,Junio,Metán,Judiciales,Penal por violencia familiar,0
+2024,Junio,Metán,Judiciales,Violencia no penal,4
+2024,Junio,Metán,Judiciales,Penal,17
+2024,Junio,Metán,Policiales,Penal por violencia de género,143
+2024,Junio,Metán,Policiales,Penal por violencia familiar,3
+2024,Junio,Metán,Policiales,Violencia no penal,46
+2024,Junio,Metán,Policiales,Penal,658
+2024,Junio,Anta,Judiciales,Penal por violencia de género,1
+2024,Junio,Anta,Judiciales,Penal por violencia familiar,0
+2024,Junio,Anta,Judiciales,Violencia no penal,4
+2024,Junio,Anta,Judiciales,Penal,6
+2024,Junio,Anta,Policiales,Penal por violencia de género,33
+2024,Junio,Anta,Policiales,Penal por violencia familiar,1
+2024,Junio,Anta,Policiales,Violencia no penal,16
+2024,Junio,Anta,Policiales,Penal,102
+2024,Junio,Tartagal,Judiciales,Penal por violencia de género,12
+2024,Junio,Tartagal,Judiciales,Penal por violencia familiar,0
+2024,Junio,Tartagal,Judiciales,Violencia no penal,9
+2024,Junio,Tartagal,Judiciales,Penal,11
+2024,Junio,Tartagal,Policiales,Penal por violencia de género,244
+2024,Junio,Tartagal,Policiales,Penal por violencia familiar,10
+2024,Junio,Tartagal,Policiales,Violencia no penal,133
+2024,Junio,Tartagal,Policiales,Penal,959
+2024,Julio,Centro,Judiciales,Penal por violencia de género,149
+2024,Julio,Centro,Judiciales,Penal por violencia familiar,71
+2024,Julio,Centro,Judiciales,Violencia no penal,38
+2024,Julio,Centro,Judiciales,Penal,547
+2024,Julio,Centro,Policiales,Penal por violencia de género,870
+2024,Julio,Centro,Policiales,Penal por violencia familiar,316
+2024,Julio,Centro,Policiales,Violencia no penal,462
+2024,Julio,Centro,Policiales,Penal,5388
+2024,Julio,Cafayate,Judiciales,Penal por violencia de género,1
+2024,Julio,Cafayate,Judiciales,Penal por violencia familiar,0
+2024,Julio,Cafayate,Judiciales,Violencia no penal,0
+2024,Julio,Cafayate,Judiciales,Penal,1
+2024,Julio,Cafayate,Policiales,Penal por violencia de género,41
+2024,Julio,Cafayate,Policiales,Penal por violencia familiar,3
+2024,Julio,Cafayate,Policiales,Violencia no penal,16
+2024,Julio,Cafayate,Policiales,Penal,137
+2024,Julio,Orán,Judiciales,Penal por violencia de género,14
+2024,Julio,Orán,Judiciales,Penal por violencia familiar,1
+2024,Julio,Orán,Judiciales,Violencia no penal,3
+2024,Julio,Orán,Judiciales,Penal,12
+2024,Julio,Orán,Policiales,Penal por violencia de género,135
+2024,Julio,Orán,Policiales,Penal por violencia familiar,35
+2024,Julio,Orán,Policiales,Violencia no penal,55
+2024,Julio,Orán,Policiales,Penal,829
+2024,Julio,Metán,Judiciales,Penal por violencia de género,13
+2024,Julio,Metán,Judiciales,Penal por violencia familiar,0
+2024,Julio,Metán,Judiciales,Violencia no penal,3
+2024,Julio,Metán,Judiciales,Penal,18
+2024,Julio,Metán,Policiales,Penal por violencia de género,111
+2024,Julio,Metán,Policiales,Penal por violencia familiar,8
+2024,Julio,Metán,Policiales,Violencia no penal,39
+2024,Julio,Metán,Policiales,Penal,642
+2024,Julio,Anta,Judiciales,Penal por violencia de género,3
+2024,Julio,Anta,Judiciales,Penal por violencia familiar,0
+2024,Julio,Anta,Judiciales,Violencia no penal,2
+2024,Julio,Anta,Judiciales,Penal,3
+2024,Julio,Anta,Policiales,Penal por violencia de género,31
+2024,Julio,Anta,Policiales,Penal por violencia familiar,1
+2024,Julio,Anta,Policiales,Violencia no penal,7
+2024,Julio,Anta,Policiales,Penal,104
+2024,Julio,Tartagal,Judiciales,Penal por violencia de género,9
+2024,Julio,Tartagal,Judiciales,Penal por violencia familiar,0
+2024,Julio,Tartagal,Judiciales,Violencia no penal,18
+2024,Julio,Tartagal,Judiciales,Penal,11
+2024,Julio,Tartagal,Policiales,Penal por violencia de género,213
+2024,Julio,Tartagal,Policiales,Penal por violencia familiar,10
+2024,Julio,Tartagal,Policiales,Violencia no penal,126
+2024,Julio,Tartagal,Policiales,Penal,986
+2024,Agosto,Centro,Judiciales,Penal por violencia de género,196
+2024,Agosto,Centro,Judiciales,Penal por violencia familiar,87
+2024,Agosto,Centro,Judiciales,Violencia no penal,66
+2024,Agosto,Centro,Judiciales,Penal,618
+2024,Agosto,Centro,Policiales,Penal por violencia de género,875
+2024,Agosto,Centro,Policiales,Penal por violencia familiar,350
+2024,Agosto,Centro,Policiales,Violencia no penal,441
+2024,Agosto,Centro,Policiales,Penal,5860
+2024,Agosto,Cafayate,Judiciales,Penal por violencia de género,2
+2024,Agosto,Cafayate,Judiciales,Penal por violencia familiar,0
+2024,Agosto,Cafayate,Judiciales,Violencia no penal,0
+2024,Agosto,Cafayate,Judiciales,Penal,10
+2024,Agosto,Cafayate,Policiales,Penal por violencia de género,39
+2024,Agosto,Cafayate,Policiales,Penal por violencia familiar,3
+2024,Agosto,Cafayate,Policiales,Violencia no penal,10
+2024,Agosto,Cafayate,Policiales,Penal,128
+2024,Agosto,Orán,Judiciales,Penal por violencia de género,22
+2024,Agosto,Orán,Judiciales,Penal por violencia familiar,1
+2024,Agosto,Orán,Judiciales,Violencia no penal,5
+2024,Agosto,Orán,Judiciales,Penal,11
+2024,Agosto,Orán,Policiales,Penal por violencia de género,190
+2024,Agosto,Orán,Policiales,Penal por violencia familiar,33
+2024,Agosto,Orán,Policiales,Violencia no penal,91
+2024,Agosto,Orán,Policiales,Penal,885
+2024,Agosto,Metán,Judiciales,Penal por violencia de género,16
+2024,Agosto,Metán,Judiciales,Penal por violencia familiar,0
+2024,Agosto,Metán,Judiciales,Violencia no penal,8
+2024,Agosto,Metán,Judiciales,Penal,19
+2024,Agosto,Metán,Policiales,Penal por violencia de género,135
+2024,Agosto,Metán,Policiales,Penal por violencia familiar,3
+2024,Agosto,Metán,Policiales,Violencia no penal,45
+2024,Agosto,Metán,Policiales,Penal,670
+2024,Agosto,Anta,Judiciales,Penal por violencia de género,0
+2024,Agosto,Anta,Judiciales,Penal por violencia familiar,0
+2024,Agosto,Anta,Judiciales,Violencia no penal,6
+2024,Agosto,Anta,Judiciales,Penal,8
+2024,Agosto,Anta,Policiales,Penal por violencia de género,38
+2024,Agosto,Anta,Policiales,Penal por violencia familiar,0
+2024,Agosto,Anta,Policiales,Violencia no penal,17
+2024,Agosto,Anta,Policiales,Penal,119
+2024,Agosto,Tartagal,Judiciales,Penal por violencia de género,16
+2024,Agosto,Tartagal,Judiciales,Penal por violencia familiar,0
+2024,Agosto,Tartagal,Judiciales,Violencia no penal,25
+2024,Agosto,Tartagal,Judiciales,Penal,18
+2024,Agosto,Tartagal,Policiales,Penal por violencia de género,216
+2024,Agosto,Tartagal,Policiales,Penal por violencia familiar,7
+2024,Agosto,Tartagal,Policiales,Violencia no penal,128
+2024,Agosto,Tartagal,Policiales,Penal,991
+2024,Septiembre,Centro,Judiciales,Penal por violencia de género,195
+2024,Septiembre,Centro,Judiciales,Penal por violencia familiar,100
+2024,Septiembre,Centro,Judiciales,Violencia no penal,78
+2024,Septiembre,Centro,Judiciales,Penal,636
+2024,Septiembre,Centro,Policiales,Penal por violencia de género,1116
+2024,Septiembre,Centro,Policiales,Penal por violencia familiar,390
+2024,Septiembre,Centro,Policiales,Violencia no penal,530
+2024,Septiembre,Centro,Policiales,Penal,5499
+2024,Septiembre,Cafayate,Judiciales,Penal por violencia de género,0
+2024,Septiembre,Cafayate,Judiciales,Penal por violencia familiar,0
+2024,Septiembre,Cafayate,Judiciales,Violencia no penal,0
+2024,Septiembre,Cafayate,Judiciales,Penal,9
+2024,Septiembre,Cafayate,Policiales,Penal por violencia de género,38
+2024,Septiembre,Cafayate,Policiales,Penal por violencia familiar,4
+2024,Septiembre,Cafayate,Policiales,Violencia no penal,8
+2024,Septiembre,Cafayate,Policiales,Penal,127
+2024,Septiembre,Orán,Judiciales,Penal por violencia de género,25
+2024,Septiembre,Orán,Judiciales,Penal por violencia familiar,1
+2024,Septiembre,Orán,Judiciales,Violencia no penal,4
+2024,Septiembre,Orán,Judiciales,Penal,17
+2024,Septiembre,Orán,Policiales,Penal por violencia de género,198
+2024,Septiembre,Orán,Policiales,Penal por violencia familiar,25
+2024,Septiembre,Orán,Policiales,Violencia no penal,103
+2024,Septiembre,Orán,Policiales,Penal,827
+2024,Septiembre,Metán,Judiciales,Penal por violencia de género,16
+2024,Septiembre,Metán,Judiciales,Penal por violencia familiar,0
+2024,Septiembre,Metán,Judiciales,Violencia no penal,4
+2024,Septiembre,Metán,Judiciales,Penal,19
+2024,Septiembre,Metán,Policiales,Penal por violencia de género,154
+2024,Septiembre,Metán,Policiales,Penal por violencia familiar,4
+2024,Septiembre,Metán,Policiales,Violencia no penal,50
+2024,Septiembre,Metán,Policiales,Penal,645
+2024,Septiembre,Anta,Judiciales,Penal por violencia de género,2
+2024,Septiembre,Anta,Judiciales,Penal por violencia familiar,0
+2024,Septiembre,Anta,Judiciales,Violencia no penal,5
+2024,Septiembre,Anta,Judiciales,Penal,8
+2024,Septiembre,Anta,Policiales,Penal por violencia de género,28
+2024,Septiembre,Anta,Policiales,Penal por violencia familiar,0
+2024,Septiembre,Anta,Policiales,Violencia no penal,17
+2024,Septiembre,Anta,Policiales,Penal,86
+2024,Septiembre,Tartagal,Judiciales,Penal por violencia de género,15
+2024,Septiembre,Tartagal,Judiciales,Penal por violencia familiar,0
+2024,Septiembre,Tartagal,Judiciales,Violencia no penal,16
+2024,Septiembre,Tartagal,Judiciales,Penal,11
+2024,Septiembre,Tartagal,Policiales,Penal por violencia de género,269
+2024,Septiembre,Tartagal,Policiales,Penal por violencia familiar,10
+2024,Septiembre,Tartagal,Policiales,Violencia no penal,177
+2024,Septiembre,Tartagal,Policiales,Penal,1025

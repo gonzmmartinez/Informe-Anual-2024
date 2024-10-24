@@ -15,10 +15,11 @@ font_add_google("Barlow", "font")
 showtext_auto()
 
 # Leer datos
-Raw <- read.csv(file=paste0(dirname(rstudioapi::getActiveDocumentContext()$path), "/Datos/Denuncias_SUD.csv")) %>%
-  mutate(Tipo = case_when(Tipo == "Género" ~ "Penal por violencia de género",
-                          Tipo == "Familiar" ~ "Penal por violencia familiar",
-                          Tipo == "No penal" ~ "No penal"))
+Raw <- read.csv(file=paste0(dirname(rstudioapi::getActiveDocumentContext()$path), "/Datos/Denuncias_SUD_totales.csv")) %>%
+  mutate(Tipo = case_when(Tipo == "Penal por violencia de género" ~ "Penal y civil por violencia de género y/o familiar",
+                          Tipo == "Penal por violencia familiar" ~ "Penal y civil por violencia de género y/o familiar",
+                          Tipo == "Violencia no penal" ~ "Penal y civil por violencia de género y/o familiar",
+                          Tipo == "Penal" ~ "Otros delitos penales"))
 
 Data1 <- Raw %>%
   filter(Año == 2024) %>%
@@ -26,7 +27,8 @@ Data1 <- Raw %>%
   summarise(Cantidad = sum(Cantidad)) %>%
   mutate(Porcentaje = 100 * Cantidad / sum(Cantidad)) %>%
   mutate(Tipo = factor(Tipo,
-                         levels = c("Penal por violencia de género", "Penal por violencia familiar", "No penal"))) %>%
+                         levels = c("Penal y civil por violencia de género y/o familiar",
+                                    "Otros delitos penales"))) %>%
   arrange(Tipo) %>%
   mutate(Label = paste0("<span style='font-size:10pt'>**",
                         formatC(round(Porcentaje,1), big.mark=".", decimal.mark=","),
@@ -44,7 +46,8 @@ Data2 <- Raw %>%
   summarise(Cantidad = sum(Cantidad)) %>%
   mutate(Porcentaje = 100 * Cantidad / sum(Cantidad)) %>%
   mutate(Tipo = factor(Tipo,
-                       levels = c("Penal por violencia de género", "Penal por violencia familiar", "No penal"))) %>%
+                       levels = c("Penal y civil por violencia de género y/o familiar",
+                                  "Otros delitos penales"))) %>%
   arrange(Tipo) %>%
   mutate(Label = paste0("<span style='font-size:8pt'>**",
                         formatC(round(Porcentaje,1), big.mark=".", decimal.mark=","),
@@ -58,27 +61,26 @@ Data2 <- Raw %>%
   ungroup()
 
 # Definir colores
-Colores <- c("Penal por violencia de género" = "#f2904c",
-             "Penal por violencia familiar" = "#ec6489",
-             "No penal" = "#1daa6a")
+Colores <- c("Penal y civil por violencia de género y/o familiar" = "#a5549c",
+             "Otros delitos penales" = "#1daa6a")
 
 # Total
 Total1 <- paste0(paste0("<span style='font-size:20pt'>",
                        "Total",
-                       "</span><br><span style='font-size:30pt'>**",
+                       "</span><br><span style='font-size:30pt'> **",
                        formatC(sum(Data1$Cantidad), big.mark = ".", decimal.mark = ","),
                        "**</span>"))
 
 Total2 <- paste0(paste0("<span style='font-size:15pt'>",
                         "Total",
-                        "</span><br><span style='font-size:20pt'>**",
+                        "</span><br><span style='font-size:20pt'> **",
                         formatC(sum(Data2$Cantidad), big.mark = ".", decimal.mark = ","),
                         "**</span>"))
 
 # Gráfico1
 grafico1 <- ggplot(Data1, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Tipo)) +
   geom_rect() +
-  geom_richtext(y=0, x=1.5,
+  geom_richtext(y=2, x=1.5,
                 label=Total1, size=6,
                 color = "black",
                 label.color = NA, family="font",
@@ -90,16 +92,16 @@ grafico1 <- ggplot(Data1, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Tipo)) 
   coord_polar(theta="y") +
   xlim(c(1.5, 4)) +
   theme_void() +
-  scale_fill_manual(values = Colores, labels=function(z) str_wrap(z, width=20)) +
+  scale_fill_manual(values = Colores, name="Tipo de denuncia", labels=function(z) str_wrap(z, width=20)) +
   labs(title="2.024",
        subtitle = str_wrap("enero-septiembre inclusive", 20)) +
   theme(text=element_text(family="font"),
         legend.position = "right",
         plot.title = element_text(family="font", size=25, face="bold", hjust=0.5),
         plot.subtitle = element_text(family="font", size=15, face="italic", hjust=0.5),
-        legend.title = element_blank(),
+        legend.title = element_text(family="font", size=12, margin=margin(b=10)),
         legend.text = element_text(size=15),
-        legend.box.margin=margin(5,5,5,5),
+        legend.box.margin = margin(t=5,b=5,l=5,r=5),
         legend.key.spacing.y = unit(0.5, "cm"),
         plot.background = element_rect(fill = "white", colour = NA))
 
@@ -118,7 +120,7 @@ grafico2 <- ggplot(Data2, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Tipo)) 
   coord_polar(theta="y") +
   xlim(c(1.5, 4)) +
   theme_void() +
-  scale_fill_manual(values = Colores) +
+  scale_fill_manual(values = Colores, name="Tipo de denuncia", labels=function(z) str_wrap(z, width=20)) +
   labs(subtitle = str_wrap("Desde su implementación en noviembre de 2.023 hasta septiembre de 2.024 inclusive", 20)) +
   theme(text=element_text(family="font"),
         legend.position = "none",

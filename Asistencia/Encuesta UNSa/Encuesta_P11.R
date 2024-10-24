@@ -20,8 +20,9 @@ Raw <- read.csv(paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Da
 
 Data <- Raw %>%
   select(P11) %>%
-  mutate(P11 = factor(P11)) %>%
+  mutate(P11 = factor(P11, levels=c("Sí", "No"))) %>%
   group_by(P11) %>%
+  arrange(P11) %>%
   summarise(Cantidad = n()) %>%
   mutate(Porcentaje = 100 * Cantidad / sum(Cantidad)) %>%
   mutate(ymax = cumsum(Porcentaje)) %>%

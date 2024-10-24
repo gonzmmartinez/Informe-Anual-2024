@@ -1,7 +1,7 @@
 # Limpiar todo
 rm(list = ls())
 
-# Librerías
+# Librer?as
 library(ggplot2)
 library(dplyr)
 library(stringr)
@@ -16,23 +16,16 @@ showtext_auto()
 
 # Crear datos
 Raw <- read.csv(paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Datos/Respuestas_unsa.csv")) %>%
-  filter(Imputar == "No") %>%
-  select(P13)
+  filter(Imputar == "No")
 
 Data <- Raw %>%
-  rename(Tipo = "P13") %>%
-  mutate(Tipo = str_to_sentence(Tipo)) %>%
-  mutate(Tipo = str_replace_all(Tipo, ";", ",")) %>%
-  mutate(Tipo = ifelse(Tipo != "No experimenté violencia/agresiones", "Sí", "No")) %>%
-  mutate(Tipo = factor(Tipo, levels=c("Sí", "No"))) %>%
-  group_by(Tipo) %>%
+  select(P14) %>%
+  mutate(P14 = factor(P14, levels=c("Sí", "No"))) %>%
+  group_by(P14) %>%
+  arrange(P14) %>%
   summarise(Cantidad = n()) %>%
-  ungroup() %>%
-  group_by(Tipo) %>%
-  arrange(Tipo) %>%
-  summarise(Cantidad = sum(Cantidad)) %>%
   mutate(Porcentaje = 100 * Cantidad / sum(Cantidad)) %>%
-  mutate(ymax = cumsum(Porcentaje)) %>% 
+  mutate(ymax = cumsum(Porcentaje)) %>%
   mutate(ymin = c(0, head(ymax, n=-1))) %>%
   rowwise() %>%
   mutate(ymid = ymax - (ymax - ymin)/2) %>%
@@ -44,31 +37,20 @@ Data <- Raw %>%
                         ")</span>")) %>%
   mutate(xpos = ifelse(Porcentaje <= 10, 4.4, 3.25))
 
+Total <- sum(Data$Cantidad)
+
 # Definir colores
-Colores <- c("#6e3169",
-             "#e54c7c",
+Paleta <- c("#e54c7c",
              "#f2904c",
              "#ffd241",
              "#1daa6a",
-             "#747264",
-             "#c93131",
-             "#e55a3e",
-             "#9bc6b7",
-             "#266f9b",
-             "#2e544d")
+             "#747264")
 
-Colores <- c("Sí" = "#e55a3e",
+Colores <- c("Sí" = "#f2904c",
              "No" = "#e6e8eb")
 
-# Total
-Total <- paste0(paste0("<span style='font-size:20pt'>",
-                       "Total",
-                       "</span><br><span style='font-size:30pt'>**",
-                       formatC(sum(Data$Cantidad), big.mark = ".", decimal.mark = ","),
-                       "**</span>"))
-
-# Gráfico1
-grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=2.5, fill=Tipo)) +
+# Gr?fico1
+grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=2.5, fill=P14)) +
   geom_rect() +
   geom_richtext(aes(x = xpos, y=ymid, label=Label),
                 color = "black",

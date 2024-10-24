@@ -1,6 +1,8 @@
 # Limpiar todo
 rm(list = ls())
 
+`%nin%` = Negate(`%in%`)
+
 # Librerías
 library(ggplot2)
 library(dplyr)
@@ -17,13 +19,14 @@ showtext_auto()
 # Crear datos
 Raw <- read.csv(paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Datos/Respuestas_unsa.csv")) %>%
   filter(Imputar == "No") %>%
-  select(P13)
+  select(P15)
 
 Data <- Raw %>%
-  rename(Tipo = "P13") %>%
+  rename(Tipo = "P15") %>%
   mutate(Tipo = str_to_sentence(Tipo)) %>%
   mutate(Tipo = str_replace_all(Tipo, ";", ",")) %>%
-  mutate(Tipo = ifelse(Tipo != "No experimenté violencia/agresiones", "Sí", "No")) %>%
+  mutate(Tipo = ifelse(Tipo %nin% c("No atravesaste situaciones de violencia/discriminacion", "No reaccionaste ante estas situaciones", "Ninguna", ""),
+                       "Sí", "No")) %>%
   mutate(Tipo = factor(Tipo, levels=c("Sí", "No"))) %>%
   group_by(Tipo) %>%
   summarise(Cantidad = n()) %>%

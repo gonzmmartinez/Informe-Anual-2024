@@ -43,7 +43,7 @@ Data <- Data %>%
   mutate(Tipo = factor(Tipo, levels=Levels))
 
 # Definir colores
-Colores <- c("#6e3169",
+Paleta <- c("#6e3169",
              "#e54c7c",
              "#f2904c",
              "#ffd241",
@@ -54,6 +54,9 @@ Colores <- c("#6e3169",
              "#9bc6b7",
              "#266f9b",
              "#2e544d")
+
+# Colores
+Colores <- colorRampPalette(c("lightgray", "#6e3169"))(3)
 
 # Total
 Total <- paste0(paste0("<span style='font-size:20pt'>",
@@ -69,7 +72,7 @@ grafico <- ggplot(Data, aes(y=Tipo, x=Porcentaje, fill=Porcentaje)) +
             size=5, color = "black", hjust = -0.2, family="font") +
   theme_light() +
   labs(y="Tipos de agresiones verbales") +
-  scale_fill_gradient2(low="#266f9b", high="#c93131", mid="#6e3169", labels = function(z) str_wrap(z, width=5)) +
+  scale_fill_gradient2(low=Colores[1], high=Colores[3], mid=Colores[2], midpoint=mean(Data$Cantidad), labels = function(z) str_wrap(z, width=5)) +
   scale_x_continuous(limits = c(0, max(Data$Porcentaje + 10)), labels = function(z) paste0(z, "%")) +
   scale_y_discrete(labels = function(z) str_wrap(z, width = 50)) +
   theme(text=element_text(family="font"), legend.position="none",
