@@ -1,0 +1,425 @@
+Año,Distrito,Género,Rango_etario,Frecuencia,Ord_rango_etario
+2020,Centro,Mujeres,0-17 años,79,1
+2020,Sur-Metán,Mujeres,0-17 años,21,1
+2020,Norte-Orán,Mujeres,0-17 años,17,1
+2020,Norte-Tartagal,Mujeres,0-17 años,21,1
+2020,Centro,Mujeres,18-21 años,469,2
+2020,Sur-Metán,Mujeres,18-21 años,32,2
+2020,Norte-Orán,Mujeres,18-21 años,61,2
+2020,Norte-Tartagal,Mujeres,18-21 años,68,2
+2020,Centro,Mujeres,22-29 años,1311,3
+2020,Sur-Metán,Mujeres,22-29 años,108,3
+2020,Norte-Orán,Mujeres,22-29 años,146,3
+2020,Norte-Tartagal,Mujeres,22-29 años,169,3
+2020,Centro,Mujeres,30-39 años,1340,4
+2020,Sur-Metán,Mujeres,30-39 años,89,4
+2020,Norte-Orán,Mujeres,30-39 años,108,4
+2020,Norte-Tartagal,Mujeres,30-39 años,181,4
+2020,Centro,Mujeres,40-49 años,767,5
+2020,Sur-Metán,Mujeres,40-49 años,49,5
+2020,Norte-Orán,Mujeres,40-49 años,61,5
+2020,Norte-Tartagal,Mujeres,40-49 años,74,5
+2020,Centro,Mujeres,50-59 años,233,6
+2020,Sur-Metán,Mujeres,50-59 años,24,6
+2020,Norte-Orán,Mujeres,50-59 años,28,6
+2020,Norte-Tartagal,Mujeres,50-59 años,17,6
+2020,Centro,Mujeres,60-74 años,147,7
+2020,Sur-Metán,Mujeres,60-74 años,8,7
+2020,Norte-Orán,Mujeres,60-74 años,15,7
+2020,Norte-Tartagal,Mujeres,60-74 años,17,7
+2020,Centro,Mujeres,Más de 74 años,59,8
+2020,Sur-Metán,Mujeres,Más de 74 años,2,8
+2020,Norte-Orán,Mujeres,Más de 74 años,1,8
+2020,Norte-Tartagal,Mujeres,Más de 74 años,1,8
+2020,Centro,Varones,0-17 años,121,1
+2020,Sur-Metán,Varones,0-17 años,31,1
+2020,Norte-Orán,Varones,0-17 años,30,1
+2020,Norte-Tartagal,Varones,0-17 años,39,1
+2020,Centro,Varones,18-21 años,968,2
+2020,Sur-Metán,Varones,18-21 años,95,2
+2020,Norte-Orán,Varones,18-21 años,140,2
+2020,Norte-Tartagal,Varones,18-21 años,182,2
+2020,Centro,Varones,22-29 años,2836,3
+2020,Sur-Metán,Varones,22-29 años,219,3
+2020,Norte-Orán,Varones,22-29 años,405,3
+2020,Norte-Tartagal,Varones,22-29 años,446,3
+2020,Centro,Varones,30-39 años,3095,4
+2020,Sur-Metán,Varones,30-39 años,251,4
+2020,Norte-Orán,Varones,30-39 años,395,4
+2020,Norte-Tartagal,Varones,30-39 años,490,4
+2020,Centro,Varones,40-49 años,1732,5
+2020,Sur-Metán,Varones,40-49 años,146,5
+2020,Norte-Orán,Varones,40-49 años,222,5
+2020,Norte-Tartagal,Varones,40-49 años,274,5
+2020,Centro,Varones,50-59 años,774,6
+2020,Sur-Metán,Varones,50-59 años,78,6
+2020,Norte-Orán,Varones,50-59 años,96,6
+2020,Norte-Tartagal,Varones,50-59 años,106,6
+2020,Centro,Varones,60-74 años,416,7
+2020,Sur-Metán,Varones,60-74 años,43,7
+2020,Norte-Orán,Varones,60-74 años,40,7
+2020,Norte-Tartagal,Varones,60-74 años,41,7
+2020,Centro,Varones,Más de 74 años,121,8
+2020,Sur-Metán,Varones,Más de 74 años,7,8
+2020,Norte-Orán,Varones,Más de 74 años,5,8
+2020,Norte-Tartagal,Varones,Más de 74 años,2,8
+2021,Sur-Anta,Mujeres,0-17 años,0,1
+2021,Centro,Mujeres,0-17 años,84,1
+2021,Sur-Metán,Mujeres,0-17 años,17,1
+2021,Norte-Orán,Mujeres,0-17 años,20,1
+2021,Norte-Tartagal,Mujeres,0-17 años,16,1
+2021,Sur-Anta,Mujeres,18-21 años,7,2
+2021,Centro,Mujeres,18-21 años,472,2
+2021,Sur-Metán,Mujeres,18-21 años,41,2
+2021,Norte-Orán,Mujeres,18-21 años,49,2
+2021,Norte-Tartagal,Mujeres,18-21 años,63,2
+2021,Sur-Anta,Mujeres,22-29 años,17,3
+2021,Centro,Mujeres,22-29 años,1684,3
+2021,Sur-Metán,Mujeres,22-29 años,161,3
+2021,Norte-Orán,Mujeres,22-29 años,159,3
+2021,Norte-Tartagal,Mujeres,22-29 años,252,3
+2021,Sur-Anta,Mujeres,30-39 años,32,4
+2021,Centro,Mujeres,30-39 años,1862,4
+2021,Sur-Metán,Mujeres,30-39 años,108,4
+2021,Norte-Orán,Mujeres,30-39 años,150,4
+2021,Norte-Tartagal,Mujeres,30-39 años,187,4
+2021,Sur-Anta,Mujeres,40-49 años,17,5
+2021,Centro,Mujeres,40-49 años,1072,5
+2021,Sur-Metán,Mujeres,40-49 años,89,5
+2021,Norte-Orán,Mujeres,40-49 años,90,5
+2021,Norte-Tartagal,Mujeres,40-49 años,95,5
+2021,Sur-Anta,Mujeres,50-59 años,7,6
+2021,Centro,Mujeres,50-59 años,381,6
+2021,Sur-Metán,Mujeres,50-59 años,35,6
+2021,Norte-Orán,Mujeres,50-59 años,39,6
+2021,Norte-Tartagal,Mujeres,50-59 años,43,6
+2021,Sur-Anta,Mujeres,60-74 años,3,7
+2021,Centro,Mujeres,60-74 años,234,7
+2021,Sur-Metán,Mujeres,60-74 años,17,7
+2021,Norte-Orán,Mujeres,60-74 años,22,7
+2021,Norte-Tartagal,Mujeres,60-74 años,16,7
+2021,Sur-Anta,Mujeres,Más de 74 años,2,8
+2021,Centro,Mujeres,Más de 74 años,57,8
+2021,Sur-Metán,Mujeres,Más de 74 años,7,8
+2021,Norte-Orán,Mujeres,Más de 74 años,2,8
+2021,Norte-Tartagal,Mujeres,Más de 74 años,2,8
+2021,Sur-Anta,Mujeres,Sin especificar,24,9
+2021,Centro,Mujeres,Sin especificar,3961,9
+2021,Sur-Metán,Mujeres,Sin especificar,218,9
+2021,Norte-Orán,Mujeres,Sin especificar,511,9
+2021,Norte-Tartagal,Mujeres,Sin especificar,865,9
+2021,Sur-Anta,Varones,0-17 años,1,1
+2021,Centro,Varones,0-17 años,157,1
+2021,Sur-Metán,Varones,0-17 años,24,1
+2021,Norte-Orán,Varones,0-17 años,26,1
+2021,Norte-Tartagal,Varones,0-17 años,48,1
+2021,Sur-Anta,Varones,18-21 años,13,2
+2021,Centro,Varones,18-21 años,991,2
+2021,Sur-Metán,Varones,18-21 años,107,2
+2021,Norte-Orán,Varones,18-21 años,117,2
+2021,Norte-Tartagal,Varones,18-21 años,189,2
+2021,Sur-Anta,Varones,22-29 años,35,3
+2021,Centro,Varones,22-29 años,3285,3
+2021,Sur-Metán,Varones,22-29 años,276,3
+2021,Norte-Orán,Varones,22-29 años,459,3
+2021,Norte-Tartagal,Varones,22-29 años,510,3
+2021,Sur-Anta,Varones,30-39 años,38,4
+2021,Centro,Varones,30-39 años,3845,4
+2021,Sur-Metán,Varones,30-39 años,367,4
+2021,Norte-Orán,Varones,30-39 años,480,4
+2021,Norte-Tartagal,Varones,30-39 años,522,4
+2021,Sur-Anta,Varones,40-49 años,31,5
+2021,Centro,Varones,40-49 años,2236,5
+2021,Sur-Metán,Varones,40-49 años,211,5
+2021,Norte-Orán,Varones,40-49 años,292,5
+2021,Norte-Tartagal,Varones,40-49 años,346,5
+2021,Sur-Anta,Varones,50-59 años,15,6
+2021,Centro,Varones,50-59 años,972,6
+2021,Sur-Metán,Varones,50-59 años,88,6
+2021,Norte-Orán,Varones,50-59 años,111,6
+2021,Norte-Tartagal,Varones,50-59 años,147,6
+2021,Sur-Anta,Varones,60-74 años,13,7
+2021,Centro,Varones,60-74 años,512,7
+2021,Sur-Metán,Varones,60-74 años,70,7
+2021,Norte-Orán,Varones,60-74 años,47,7
+2021,Norte-Tartagal,Varones,60-74 años,61,7
+2021,Sur-Anta,Varones,Más de 74 años,1,8
+2021,Centro,Varones,Más de 74 años,92,8
+2021,Sur-Metán,Varones,Más de 74 años,11,8
+2021,Norte-Orán,Varones,Más de 74 años,8,8
+2021,Norte-Tartagal,Varones,Más de 74 años,10,8
+2021,Sur-Anta,Varones,Sin especificar,62,9
+2021,Centro,Varones,Sin especificar,5096,9
+2021,Sur-Metán,Varones,Sin especificar,395,9
+2021,Norte-Orán,Varones,Sin especificar,984,9
+2021,Norte-Tartagal,Varones,Sin especificar,1433,9
+2022,Sur-Anta,Mujeres,0-17 años,3,1
+2022,Centro,Mujeres,0-17 años,68,1
+2022,Sur-Metán,Mujeres,0-17 años,12,1
+2022,Norte-Orán,Mujeres,0-17 años,10,1
+2022,Norte-Tartagal,Mujeres,0-17 años,24,1
+2022,Sur-Anta,Mujeres,18-21 años,15,2
+2022,Centro,Mujeres,18-21 años,413,2
+2022,Sur-Metán,Mujeres,18-21 años,40,2
+2022,Norte-Orán,Mujeres,18-21 años,57,2
+2022,Norte-Tartagal,Mujeres,18-21 años,78,2
+2022,Sur-Anta,Mujeres,22-29 años,35,3
+2022,Centro,Mujeres,22-29 años,1622,3
+2022,Sur-Metán,Mujeres,22-29 años,163,3
+2022,Norte-Orán,Mujeres,22-29 años,227,3
+2022,Norte-Tartagal,Mujeres,22-29 años,257,3
+2022,Sur-Anta,Mujeres,30-39 años,73,4
+2022,Centro,Mujeres,30-39 años,1699,4
+2022,Sur-Metán,Mujeres,30-39 años,134,4
+2022,Norte-Orán,Mujeres,30-39 años,175,4
+2022,Norte-Tartagal,Mujeres,30-39 años,223,4
+2022,Sur-Anta,Mujeres,40-49 años,31,5
+2022,Centro,Mujeres,40-49 años,1083,5
+2022,Sur-Metán,Mujeres,40-49 años,93,5
+2022,Norte-Orán,Mujeres,40-49 años,95,5
+2022,Norte-Tartagal,Mujeres,40-49 años,119,5
+2022,Sur-Anta,Mujeres,50-59 años,12,6
+2022,Centro,Mujeres,50-59 años,395,6
+2022,Sur-Metán,Mujeres,50-59 años,39,6
+2022,Norte-Orán,Mujeres,50-59 años,19,6
+2022,Norte-Tartagal,Mujeres,50-59 años,41,6
+2022,Sur-Anta,Mujeres,60-74 años,5,7
+2022,Centro,Mujeres,60-74 años,229,7
+2022,Sur-Metán,Mujeres,60-74 años,20,7
+2022,Norte-Orán,Mujeres,60-74 años,12,7
+2022,Norte-Tartagal,Mujeres,60-74 años,27,7
+2022,Sur-Anta,Mujeres,Más de 74 años,2,8
+2022,Centro,Mujeres,Más de 74 años,41,8
+2022,Sur-Metán,Mujeres,Más de 74 años,2,8
+2022,Norte-Orán,Mujeres,Más de 74 años,2,8
+2022,Norte-Tartagal,Mujeres,Más de 74 años,2,8
+2022,Sur-Anta,Mujeres,Sin especificar,112,9
+2022,Centro,Mujeres,Sin especificar,2833,9
+2022,Sur-Metán,Mujeres,Sin especificar,266,9
+2022,Norte-Orán,Mujeres,Sin especificar,621,9
+2022,Norte-Tartagal,Mujeres,Sin especificar,837,9
+2022,Sur-Anta,Varones,0-17 años,8,1
+2022,Centro,Varones,0-17 años,116,1
+2022,Sur-Metán,Varones,0-17 años,19,1
+2022,Norte-Orán,Varones,0-17 años,41,1
+2022,Norte-Tartagal,Varones,0-17 años,39,1
+2022,Sur-Anta,Varones,18-21 años,37,2
+2022,Centro,Varones,18-21 años,814,2
+2022,Sur-Metán,Varones,18-21 años,95,2
+2022,Norte-Orán,Varones,18-21 años,152,2
+2022,Norte-Tartagal,Varones,18-21 años,201,2
+2022,Sur-Anta,Varones,22-29 años,112,3
+2022,Centro,Varones,22-29 años,3096,3
+2022,Sur-Metán,Varones,22-29 años,304,3
+2022,Norte-Orán,Varones,22-29 años,554,3
+2022,Norte-Tartagal,Varones,22-29 años,577,3
+2022,Sur-Anta,Varones,30-39 años,109,4
+2022,Centro,Varones,30-39 años,3713,4
+2022,Sur-Metán,Varones,30-39 años,319,4
+2022,Norte-Orán,Varones,30-39 años,581,4
+2022,Norte-Tartagal,Varones,30-39 años,593,4
+2022,Sur-Anta,Varones,40-49 años,48,5
+2022,Centro,Varones,40-49 años,2297,5
+2022,Sur-Metán,Varones,40-49 años,203,5
+2022,Norte-Orán,Varones,40-49 años,361,5
+2022,Norte-Tartagal,Varones,40-49 años,364,5
+2022,Sur-Anta,Varones,50-59 años,27,6
+2022,Centro,Varones,50-59 años,910,6
+2022,Sur-Metán,Varones,50-59 años,96,6
+2022,Norte-Orán,Varones,50-59 años,127,6
+2022,Norte-Tartagal,Varones,50-59 años,210,6
+2022,Sur-Anta,Varones,60-74 años,17,7
+2022,Centro,Varones,60-74 años,483,7
+2022,Sur-Metán,Varones,60-74 años,69,7
+2022,Norte-Orán,Varones,60-74 años,65,7
+2022,Norte-Tartagal,Varones,60-74 años,70,7
+2022,Sur-Anta,Varones,Más de 74 años,0,8
+2022,Centro,Varones,Más de 74 años,117,8
+2022,Sur-Metán,Varones,Más de 74 años,9,8
+2022,Norte-Orán,Varones,Más de 74 años,8,8
+2022,Norte-Tartagal,Varones,Más de 74 años,14,8
+2022,Sur-Anta,Varones,Sin especificar,191,9
+2022,Centro,Varones,Sin especificar,4191,9
+2022,Sur-Metán,Varones,Sin especificar,380,9
+2022,Norte-Orán,Varones,Sin especificar,1131,9
+2022,Norte-Tartagal,Varones,Sin especificar,1474,9
+2023,Sur-Anta,Mujeres,Más de 74 años,0,8
+2023,Sur-Anta,Mujeres,0-17 años,7,1
+2023,Sur-Anta,Mujeres,18-21 años,14,2
+2023,Sur-Anta,Mujeres,22-29 años,45,3
+2023,Sur-Anta,Mujeres,30-39 años,52,4
+2023,Sur-Anta,Mujeres,40-49 años,23,5
+2023,Sur-Anta,Mujeres,50-59 años,14,6
+2023,Sur-Anta,Mujeres,60-74 años,8,7
+2023,Sur-Anta,Mujeres,Sin especificar,152,9
+2023,Sur-Anta,Varones,Más de 74 años,4,8
+2023,Sur-Anta,Varones,0-17 años,9,1
+2023,Sur-Anta,Varones,18-21 años,31,2
+2023,Sur-Anta,Varones,22-29 años,108,3
+2023,Sur-Anta,Varones,30-39 años,104,4
+2023,Sur-Anta,Varones,40-49 años,79,5
+2023,Sur-Anta,Varones,50-59 años,26,6
+2023,Sur-Anta,Varones,60-74 años,15,7
+2023,Sur-Anta,Varones,Sin especificar,307,9
+2023,Centro,Mujeres,Más de 74 años,52,8
+2023,Centro,Mujeres,0-17 años,49,1
+2023,Centro,Mujeres,18-21 años,388,2
+2023,Centro,Mujeres,22-29 años,1686,3
+2023,Centro,Mujeres,30-39 años,1954,4
+2023,Centro,Mujeres,40-49 años,999,5
+2023,Centro,Mujeres,50-59 años,423,6
+2023,Centro,Mujeres,60-74 años,241,7
+2023,Centro,Mujeres,Sin especificar,3045,9
+2023,Centro,Varones,Más de 74 años,109,8
+2023,Centro,Varones,0-17 años,134,1
+2023,Centro,Varones,18-21 años,818,2
+2023,Centro,Varones,22-29 años,3414,3
+2023,Centro,Varones,30-39 años,4099,4
+2023,Centro,Varones,40-49 años,2423,5
+2023,Centro,Varones,50-59 años,880,6
+2023,Centro,Varones,60-74 años,577,7
+2023,Centro,Varones,Sin especificar,4358,9
+2023,Sur-Metán,Mujeres,Más de 74 años,6,8
+2023,Sur-Metán,Mujeres,0-17 años,17,1
+2023,Sur-Metán,Mujeres,18-21 años,43,2
+2023,Sur-Metán,Mujeres,22-29 años,108,3
+2023,Sur-Metán,Mujeres,30-39 años,104,4
+2023,Sur-Metán,Mujeres,40-49 años,55,5
+2023,Sur-Metán,Mujeres,50-59 años,28,6
+2023,Sur-Metán,Mujeres,60-74 años,5,7
+2023,Sur-Metán,Mujeres,Sin especificar,430,9
+2023,Sur-Metán,Varones,Más de 74 años,10,8
+2023,Sur-Metán,Varones,0-17 años,23,1
+2023,Sur-Metán,Varones,18-21 años,82,2
+2023,Sur-Metán,Varones,22-29 años,239,3
+2023,Sur-Metán,Varones,30-39 años,289,4
+2023,Sur-Metán,Varones,40-49 años,211,5
+2023,Sur-Metán,Varones,50-59 años,55,6
+2023,Sur-Metán,Varones,60-74 años,47,7
+2023,Sur-Metán,Varones,Sin especificar,669,9
+2023,Norte-Orán,Mujeres,Más de 74 años,4,8
+2023,Norte-Orán,Mujeres,0-17 años,11,1
+2023,Norte-Orán,Mujeres,18-21 años,48,2
+2023,Norte-Orán,Mujeres,22-29 años,195,3
+2023,Norte-Orán,Mujeres,30-39 años,197,4
+2023,Norte-Orán,Mujeres,40-49 años,79,5
+2023,Norte-Orán,Mujeres,50-59 años,37,6
+2023,Norte-Orán,Mujeres,60-74 años,17,7
+2023,Norte-Orán,Mujeres,Sin especificar,645,9
+2023,Norte-Orán,Varones,Más de 74 años,17,8
+2023,Norte-Orán,Varones,0-17 años,39,1
+2023,Norte-Orán,Varones,18-21 años,145,2
+2023,Norte-Orán,Varones,22-29 años,603,3
+2023,Norte-Orán,Varones,30-39 años,532,4
+2023,Norte-Orán,Varones,40-49 años,324,5
+2023,Norte-Orán,Varones,50-59 años,100,6
+2023,Norte-Orán,Varones,60-74 años,54,7
+2023,Norte-Orán,Varones,Sin especificar,1274,9
+2023,Norte-Tartagal,Mujeres,Más de 74 años,10,8
+2023,Norte-Tartagal,Mujeres,0-17 años,7,1
+2023,Norte-Tartagal,Mujeres,18-21 años,77,2
+2023,Norte-Tartagal,Mujeres,22-29 años,254,3
+2023,Norte-Tartagal,Mujeres,30-39 años,237,4
+2023,Norte-Tartagal,Mujeres,40-49 años,79,5
+2023,Norte-Tartagal,Mujeres,50-59 años,41,6
+2023,Norte-Tartagal,Mujeres,60-74 años,23,7
+2023,Norte-Tartagal,Mujeres,Sin especificar,926,9
+2023,Norte-Tartagal,Varones,Más de 74 años,12,8
+2023,Norte-Tartagal,Varones,0-17 años,30,1
+2023,Norte-Tartagal,Varones,18-21 años,214,2
+2023,Norte-Tartagal,Varones,22-29 años,567,3
+2023,Norte-Tartagal,Varones,30-39 años,594,4
+2023,Norte-Tartagal,Varones,40-49 años,339,5
+2023,Norte-Tartagal,Varones,50-59 años,162,6
+2023,Norte-Tartagal,Varones,60-74 años,68,7
+2023,Norte-Tartagal,Varones,Sin especificar,1618,9
+2024,Centro,Mujeres,0-17 años,56,1
+2024,Centro,Mujeres,18-21 años,230,2
+2024,Centro,Mujeres,22-29 años,1403,3
+2024,Centro,Mujeres,30-39 años,1575,4
+2024,Centro,Mujeres,40-49 años,873,5
+2024,Centro,Mujeres,50-59 años,352,6
+2024,Centro,Mujeres,60-74 años,219,7
+2024,Centro,Mujeres,Más de 74 años,48,8
+2024,Centro,Mujeres,Sin especificar,3563,9
+2024,Centro,Varones,0-17 años,111,1
+2024,Centro,Varones,18-21 años,609,2
+2024,Centro,Varones,22-29 años,2605,3
+2024,Centro,Varones,30-39 años,3226,4
+2024,Centro,Varones,40-49 años,1885,5
+2024,Centro,Varones,50-59 años,794,6
+2024,Centro,Varones,60-74 años,473,7
+2024,Centro,Varones,Más de 74 años,159,8
+2024,Centro,Varones,Sin especificar,5487,9
+2024,Norte-Orán,Mujeres,0-17 años,12,1
+2024,Norte-Orán,Mujeres,18-21 años,40,2
+2024,Norte-Orán,Mujeres,22-29 años,176,3
+2024,Norte-Orán,Mujeres,30-39 años,242,4
+2024,Norte-Orán,Mujeres,40-49 años,116,5
+2024,Norte-Orán,Mujeres,50-59 años,42,6
+2024,Norte-Orán,Mujeres,60-74 años,18,7
+2024,Norte-Orán,Mujeres,Más de 74 años,10,8
+2024,Norte-Orán,Mujeres,Sin especificar,636,9
+2024,Norte-Orán,Varones,0-17 años,27,1
+2024,Norte-Orán,Varones,18-21 años,107,2
+2024,Norte-Orán,Varones,22-29 años,474,3
+2024,Norte-Orán,Varones,30-39 años,538,4
+2024,Norte-Orán,Varones,40-49 años,261,5
+2024,Norte-Orán,Varones,50-59 años,87,6
+2024,Norte-Orán,Varones,60-74 años,45,7
+2024,Norte-Orán,Varones,Más de 74 años,17,8
+2024,Norte-Orán,Varones,Sin especificar,1299,9
+2024,Norte-Tartagal,Mujeres,0-17 años,8,1
+2024,Norte-Tartagal,Mujeres,18-21 años,57,2
+2024,Norte-Tartagal,Mujeres,22-29 años,168,3
+2024,Norte-Tartagal,Mujeres,30-39 años,207,4
+2024,Norte-Tartagal,Mujeres,40-49 años,110,5
+2024,Norte-Tartagal,Mujeres,50-59 años,38,6
+2024,Norte-Tartagal,Mujeres,60-74 años,15,7
+2024,Norte-Tartagal,Mujeres,Más de 74 años,16,8
+2024,Norte-Tartagal,Mujeres,Sin especificar,879,9
+2024,Norte-Tartagal,Varones,0-17 años,19,1
+2024,Norte-Tartagal,Varones,18-21 años,118,2
+2024,Norte-Tartagal,Varones,22-29 años,409,3
+2024,Norte-Tartagal,Varones,30-39 años,505,4
+2024,Norte-Tartagal,Varones,40-49 años,287,5
+2024,Norte-Tartagal,Varones,50-59 años,132,6
+2024,Norte-Tartagal,Varones,60-74 años,51,7
+2024,Norte-Tartagal,Varones,Más de 74 años,32,8
+2024,Norte-Tartagal,Varones,Sin especificar,1611,9
+2024,Sur-Anta,Mujeres,0-17 años,0,1
+2024,Sur-Anta,Mujeres,18-21 años,3,2
+2024,Sur-Anta,Mujeres,22-29 años,42,3
+2024,Sur-Anta,Mujeres,30-39 años,59,4
+2024,Sur-Anta,Mujeres,40-49 años,31,5
+2024,Sur-Anta,Mujeres,50-59 años,15,6
+2024,Sur-Anta,Mujeres,60-74 años,8,7
+2024,Sur-Anta,Mujeres,Más de 74 años,2,8
+2024,Sur-Anta,Mujeres,Sin especificar,230,9
+2024,Sur-Anta,Varones,0-17 años,10,1
+2024,Sur-Anta,Varones,18-21 años,17,2
+2024,Sur-Anta,Varones,22-29 años,137,3
+2024,Sur-Anta,Varones,30-39 años,124,4
+2024,Sur-Anta,Varones,40-49 años,61,5
+2024,Sur-Anta,Varones,50-59 años,25,6
+2024,Sur-Anta,Varones,60-74 años,18,7
+2024,Sur-Anta,Varones,Más de 74 años,6,8
+2024,Sur-Anta,Varones,Sin especificar,564,9
+2024,Sur-Metán,Mujeres,0-17 años,16,1
+2024,Sur-Metán,Mujeres,18-21 años,22,2
+2024,Sur-Metán,Mujeres,22-29 años,100,3
+2024,Sur-Metán,Mujeres,30-39 años,78,4
+2024,Sur-Metán,Mujeres,40-49 años,63,5
+2024,Sur-Metán,Mujeres,50-59 años,26,6
+2024,Sur-Metán,Mujeres,60-74 años,11,7
+2024,Sur-Metán,Mujeres,Más de 74 años,15,8
+2024,Sur-Metán,Mujeres,Sin especificar,414,9
+2024,Sur-Metán,Varones,0-17 años,12,1
+2024,Sur-Metán,Varones,18-21 años,44,2
+2024,Sur-Metán,Varones,22-29 años,175,3
+2024,Sur-Metán,Varones,30-39 años,215,4
+2024,Sur-Metán,Varones,40-49 años,127,5
+2024,Sur-Metán,Varones,50-59 años,44,6
+2024,Sur-Metán,Varones,60-74 años,33,7
+2024,Sur-Metán,Varones,Más de 74 años,53,8
+2024,Sur-Metán,Varones,Sin especificar,757,9

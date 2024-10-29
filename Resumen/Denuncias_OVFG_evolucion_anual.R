@@ -57,7 +57,7 @@ grafico <- ggplot(Data, aes(x=Año, y=Cantidad)) +
             color="white", size=6, vjust=2) +
   annotate(geom="text", x=9, y=Estimacion,
            label = formatC(Estimacion, big.mark = ".", decimal.mark=",", format="d"),
-           vjust=2, family="font", fontface="bold", color="black", size=6) +
+           vjust=2, family="font", fontface="bold", color="black", size=5) +
   annotate(geom="text", x=9, y=Estimacion,
            label = str_wrap("Proyección del número total de denuncias para el año 2.024 completo", width=25),
            vjust=-0.4, family="font", fontface="italic", color="gray", size=3) +
