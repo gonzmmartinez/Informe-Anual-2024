@@ -55,10 +55,11 @@ grafico1 <- ggplot(Data %>%
                 family="font", show.legend=FALSE, fill=NA, nudge_x=0.8, size=4) +
   annotate(geom="text", x=1, y=0, label="2.021", size=12, family="font", fontface="bold", color="black") +
   xlim(1,5) +
-  scale_fill_manual(name="", values=Colores[c(1,2)]) +
+  scale_fill_manual(name="Destinatario de la consigna", values=Colores[c(1,2)]) +
   theme(text=element_text(family="font", size=20),
         legend.position="none",
-        plot.margin = margin(t=25,r=0,b=0,l=0))
+        plot.margin = margin(t=25,r=0,b=0,l=0),
+        legend.title = element_blank())
 
 # Grafico 2
 grafico2 <- ggplot(Data %>%
@@ -76,11 +77,11 @@ grafico2 <- ggplot(Data %>%
                 family="font", show.legend=FALSE, fill=NA, nudge_x=0.8, size=4) +
   annotate(geom="text", x=1, y=0, label="2.022", size=12, family="font", fontface="bold", color="black") +
   xlim(1,5) +
-  scale_fill_manual(name="", values=Colores[c(1,2)]) +
+  scale_fill_manual(name="Destinatario/a de la consigna", values=Colores[c(1,2)]) +
   theme(text=element_text(family="font", size=20),
         legend.position="top",
         legend.justification = "center",
-        legend.title = element_blank(),
+        legend.title = element_text(family="font", size=10, margin=margin(r=-15)),
         plot.margin = margin(t=25,r=0,b=0,l=0))
 
 # Grafico 3

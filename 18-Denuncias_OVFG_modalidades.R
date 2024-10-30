@@ -78,7 +78,8 @@ grafico1 <- ggplot(Data1, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=2.25, fill=Moda
   coord_polar(theta="y") +
   xlim(c(1.5, 4)) +
   theme_void() +
-  scale_fill_manual(values = Colores,
+  scale_fill_manual(name = str_wrap("Modalidad de violencia", width = 30),
+                    values = Colores,
                     labels = Data1$Leyenda) +
   labs(title="2.024",
        subtitle = "enero-septiembre") +
@@ -86,9 +87,10 @@ grafico1 <- ggplot(Data1, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=2.25, fill=Moda
         legend.position = "right",
         plot.title = element_text(family="font", size=25, face="bold", hjust=0.5),
         plot.subtitle = element_text(family="font", size=15, face="italic", hjust=0.5),
-        legend.title = element_blank(),
+        legend.title = element_text(size=10, family="font"),
         legend.text = element_text(size=15),
         legend.box.margin=margin(5,5,5,5),
+        legend.key.spacing.y = unit(0.25, "cm"),
         plot.background = element_rect(fill = "white", colour = NA))
 
 # Gráfico2
@@ -123,6 +125,6 @@ filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
 
 ggsave(filename = paste0(filename, ".png"),
        path = paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
-       plot=grafico, dpi=100, width=10, height=5)
+       plot=grafico, dpi=100, width=10, height=4.5)
 ggsave(filename = paste0(filename, ".svg"), path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
-       plot=grafico, dpi=72, width=10, height=5)
+       plot=grafico, dpi=72, width=10, height=4.5)

@@ -62,15 +62,17 @@ grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Tipo)) +
   coord_polar(theta="y") +
   xlim(c(1.5, 4.5)) +
   theme_void() +
-  scale_fill_manual(values = Colores, labels = function(z) str_wrap(z, width=15)) +
+  scale_fill_manual(name = "Motivo de la causa judicial",
+                    values = Colores, labels = str_wrap(c("Violencia familiar", "Violencia de género", "No violencia y otros"), width=15)) +
   theme(text=element_text(family="font"),
         legend.position = "right",
         plot.title = element_text(family="font", size=25, face="bold", hjust=0.5),
         plot.subtitle = element_text(size=12, family="font"),
-        legend.title = element_blank(),
+        legend.title = element_text(size=10, family="font"),
         legend.text = element_text(size=15),
         legend.box.margin = margin(t=5,b=5,l=-40,r=40),
         plot.margin = unit(c(-3,0,-3,0), "cm"),
+        legend.key.spacing.y = unit(0.5, "cm"),
         plot.background = element_rect(fill = "white", colour = NA))
 
 # Layout

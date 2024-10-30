@@ -43,11 +43,11 @@ grafico1 <- ggplot(Data1, aes(x=reorder(Mes, Mes_num), y=Cantidad, group = Accio
   theme_light() +
   labs(title="2.024", x="Mes", y="Cantidad") +
   ylim(0,100) +
-  scale_color_manual(values = Colores) +
+  scale_color_manual(name="Tipo de requerimiento", values = Colores) +
   theme(text=element_text(family="font"),
         legend.position = "bottom",
         legend.justification = "center",
-        legend.title = element_blank(),
+        legend.title = element_text(size=10, family="font"),
         legend.text = element_text(size=12, family="font"),
         plot.title = element_text(size=30, family="font", face="bold", hjust=0.5),
         plot.title.position = "plot",

@@ -44,7 +44,7 @@ Colores <- c("Llamadas" = "#f2904c",
 # Total
 Total <- paste0(paste0("<span style='font-size:20pt'>",
                        "Total",
-                       "</span><br><span style='font-size:30pt'>**",
+                       "</span><br><span style='font-size:50pt'>**",
                        formatC(sum(Data$Cantidad), big.mark = ".", decimal.mark = ","),
                        "**</span>"))
 
@@ -52,7 +52,7 @@ Total <- paste0(paste0("<span style='font-size:20pt'>",
 grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Accion)) +
   geom_rect() +
   geom_richtext(y=0, x=1.5,
-                label=Total, size=9,
+                label=Total, size=12,
                 color = "black",
                 label.color = NA, family="font",
                 show.legend=FALSE, fill=NA) +
@@ -63,14 +63,15 @@ grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Accion)) 
   coord_polar(theta="y") +
   xlim(c(1.5, 4)) +
   theme_void() +
-  scale_fill_manual(values = Colores) +
+  scale_fill_manual(name="Tipo de requerimiento", values = Colores) +
   theme(text=element_text(family="font"),
         legend.position = "right",
         plot.title = element_text(family="font", size=25, face="bold", hjust=0.5),
         plot.subtitle = element_text(size=12, family="font"),
-        legend.title = element_blank(),
+        legend.title = element_text(size=10, family="font"),
         legend.text = element_text(size=15),
         legend.box.margin=margin(5,5,5,5),
+        legend.key.spacing.y = unit(0.5, "cm"),
         plot.background = element_rect(fill = "white", colour = NA))
 
 # Layout

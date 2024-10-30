@@ -15,7 +15,7 @@ font_add_google("Barlow", "font")
 showtext_auto()
 
 # Leer datos
-Raw <- data.frame(Caratula = c("Femicidio Ã­ntimo", "Femicidio no Ã­ntimo", "Homicidio agravado por el vÃ­nculo",
+Raw <- data.frame(Caratula = c("Femicidio íntimo", "Femicidio no íntimo", "Homicidio agravado por el vínculo",
                                "Homicidio criminis causa", "Homicidio preterintencional"),
                   Cantidad = c(23,7,2,1,1))
 
@@ -57,9 +57,9 @@ Paleta <- c("#6e3169",
             "#2e544d")
 
 # Definir colores
-Colores <- c("Femicidio Ã­ntimo" = "#1da1aa",
-             "Femicidio no Ã­ntimo" = "#1daa6a",
-             "Homicidio agravado por el vÃ­nculo" = "#f2904c",
+Colores <- c("Femicidio íntimo" = "#1da1aa",
+             "Femicidio no íntimo" = "#1daa6a",
+             "Homicidio agravado por el vínculo" = "#f2904c",
              "Homicidio criminis causa" = "#e54c7c",
              "Homicidio preterintencional" = "#ffd241")
 
@@ -78,12 +78,12 @@ grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Caratula)
   coord_polar(theta="y") +
   xlim(c(1.5, 4.5)) +
   theme_void() +
-  scale_fill_manual(values = Colores, labels = function(z) str_wrap(z, width=20)) +
+  scale_fill_manual(name = "Tipo",values = Colores, labels = function(z) str_wrap(z, width=20)) +
   theme(text=element_text(family="font"),
         legend.position = "right",
         plot.title = element_text(family="font", size=25, face="bold", hjust=0.5),
         plot.subtitle = element_text(size=12, family="font"),
-        legend.title = element_blank(),
+        legend.title = element_text(family="font", size=12, margin=margin(b=10)),
         legend.text = element_text(size=15),
         legend.box.margin = margin(t=5,b=5,l=-40,r=40),
         legend.key.spacing.y = unit(0.5, "cm"),
@@ -94,8 +94,12 @@ grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Caratula)
 grafico <- grafico +
   theme(plot.background = element_rect(fill = "white", colour = NA))
 
-# Guardar gr?fico
-ggsave(filename="Causas_sindicatura.png", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
+# Guardar gráfico
+filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
+                    str_length(unlist(basename(rstudioapi::getSourceEditorContext()$path)))-2)
+
+ggsave(filename = paste0(filename, ".png"),
+       path = paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
        plot=grafico, dpi=100, width=7, height=5)
-ggsave(filename="Causas_sindicatura.svg", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
+ggsave(filename = paste0(filename, ".svg"), path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
        plot=grafico, dpi=72, width=7, height=5)

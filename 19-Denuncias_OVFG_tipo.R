@@ -71,16 +71,18 @@ grafico1 <- ggplot(Data1, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=2.25, fill=Tipo
   coord_polar(theta="y") +
   xlim(c(1.5, 4)) +
   theme_void() +
-  scale_fill_manual(values = Colores) +
+  scale_fill_manual(name = "Tipo de violencia",
+                    values = Colores) +
   labs(title="2.024",
        subtitle = "enero-septiembre") +
   theme(text=element_text(family="font"),
         legend.position = "right",
         plot.title = element_text(family="font", size=25, face="bold", hjust=0.5),
         plot.subtitle = element_text(family="font", size=15, face="italic", hjust=0.5),
-        legend.title = element_blank(),
+        legend.title = element_text(family="font", size=10, margin=margin(b=5)),
         legend.text = element_text(size=15),
         legend.box.margin=margin(5,5,5,5),
+        legend.key.spacing.y = unit(0.5, "cm"),
         plot.background = element_rect(fill = "white", colour = NA))
 
 # Gráfico2

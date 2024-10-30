@@ -79,11 +79,12 @@ grafico1 <- ggplot(Data1, aes(x=Porcentaje, y=reorder(Rango_etario, Ord_rango_et
                                                     formatC(SE1$Cantidad[2], big.mark = ".", decimal.mark = ",")),
            family="font", size=2.5) +
   scale_x_continuous(limits=c(min(Data1$Porcentaje) - 3, max(Data1$Porcentaje) + 3), labels = function(z) paste0(abs(z), "%")) +
-  scale_fill_manual(values = Colores) +
+  scale_fill_manual(name = "Género",
+                    values = Colores) +
   theme(text=element_text(family="font"),
         legend.position = "bottom",
         legend.justification = "right",
-        legend.title = element_blank(),
+        legend.title = element_text(size=10, family="font"),
         legend.text = element_text(size=12, family="font"),
         plot.title = element_text(size=20, family="font", face="bold", hjust=0.5),
         plot.title.position = "plot",

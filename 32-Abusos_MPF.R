@@ -64,14 +64,14 @@ grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Tipo)) +
   geom_richtext(aes(x = 3.5, y=ymid, label=Label), size=2,
                 color = "black", label.color = NA, family="font", show.legend=FALSE, fill=NA, nudge_x = Data$nudge_x) +
   coord_polar(theta="y") +
-  scale_fill_manual(values=Colores, labels = function(z) str_wrap(z, width=40)) +
+  scale_fill_manual(name="Tipo de abuso", values=Colores, labels = function(z) str_wrap(z, width=40)) +
   xlim(c(1.5, 4.5)) +
   theme_void() +
   theme(text=element_text(family="font"),
         legend.position = "right",
         plot.title = element_text(family="font", size=25, face="bold", hjust=0.5),
         plot.subtitle = element_text(size=12, family="font"),
-        legend.title = element_blank(),
+        legend.title = element_text(size=10, family="font"),
         legend.text = element_text(size=15),
         legend.box.margin=margin(t=5,b=5,l=-20,r=40),
         legend.key.spacing.y = unit(5, 'mm'),
@@ -87,6 +87,6 @@ filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
 
 ggsave(filename = paste0(filename, ".png"),
        path = paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
-       plot=grafico, dpi=100, width=9, height=5)
+       plot=grafico, dpi=100, width=8, height=4.5)
 ggsave(filename = paste0(filename, ".svg"), path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
-       plot=grafico, dpi=72, width=9, height=5)
+       plot=grafico, dpi=72, width=8, height=4.5)

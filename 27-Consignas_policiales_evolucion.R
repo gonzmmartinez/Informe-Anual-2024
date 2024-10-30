@@ -34,12 +34,12 @@ grafico <- ggplot(Data, aes(x=Año, y=Total, fill=Tipo)) +
            label=formatC((Data %>% group_by(Año) %>% summarise(Total = sum(Total)))$Total, big.mark=".", decimal.mark=",")) +
   theme_light() +
   labs(y="Cantidad") +
-  scale_fill_manual(values = Colores) +
+  scale_fill_manual(name="Tipo de consigna", values = Colores) +
   scale_y_continuous(labels = function(z) formatC(z, big.mark = ".", decimal.mark = ",", format="d")) +
   theme(text=element_text(family="font"),
         legend.position = "top",
         legend.justification = "right",
-        legend.title = element_blank(),
+        legend.title = element_text(size=10, family="font"),
         legend.text = element_text(size=12, family="font"),
         plot.title = element_text(size=20, family="font", face="bold"),
         plot.subtitle = element_text(size=15, family="font"),
