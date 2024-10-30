@@ -41,15 +41,16 @@ grafico <- ggplot(Data, aes(x=Accion, y=Cantidad, fill=Tipo)) +
   annotate(geom="text", x=1:3, y=32000, label=formatC(Totales$Total, big.mark=".", decimal.mark=","), size=15, family="font", fontface="bold") +
   labs(title="",
        x="Requerimiento", y="Cantidad") +
-  ylim(0,35000) +
   scale_x_discrete(labels = function(x) str_wrap(x, width=20)) +
-  scale_y_continuous(labels = function(z) formatC(z, big.mark = ".", decimal.mark=",", format="d")) +
-  scale_fill_manual(labels = function(x) str_wrap(x, width = 20), values=Colores) +
+  scale_y_continuous(labels = function(z) formatC(z, big.mark = ".", decimal.mark=",", format="d"),
+                     limits = c(0, round(max(Data$Cantidad) * 1.5, -3))) +
+  scale_fill_manual(name = str_wrap("Situación motivo del requerimiento", width=20),
+                    labels = function(x) str_wrap(x, width = 20), values=Colores) +
   theme_light() +
   theme(text=element_text(family="font"),
         legend.position="top",
         legend.justification = "right",
-        legend.title = element_blank(),
+        legend.title = element_text(size=10, family="font"),
         legend.text = element_text(size=12, family="font"),
         plot.title = element_text(size=20, family="font", face="bold"),
         plot.subtitle = element_text(size=15, family="font"),

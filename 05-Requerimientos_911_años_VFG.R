@@ -36,11 +36,12 @@ grafico <- ggplot(Data, aes(x=Año, y=Cantidad, fill=Tipo)) +
             position = position_fill(vjust = 0.5), size=8) +
   theme_light() +
   scale_y_continuous(labels = function(x) paste0(x * 100, "%")) +
-  scale_fill_manual(values = Colores) +
+  scale_fill_manual(name = str_wrap("Situación motivo del requerimiento", width=20),
+                    values = Colores) +
   theme(text=element_text(family="font"),
         legend.position="top",
         legend.justification = "right",
-        legend.title = element_blank(),
+        legend.title = element_text(size=10, family="font"),
         legend.text = element_text(size=12, family="font"),
         plot.title = element_text(size=20, family="font", face="bold"),
         plot.subtitle = element_text(size=15, family="font"),

@@ -62,7 +62,7 @@ Colores <- c("Género" = "#f2904c",
 # Total
 Total1 <- paste0(paste0("<span style='font-size:20pt'>",
                        "Total",
-                       "</span><br><span style='font-size:30pt'>**",
+                       "</span><br><span style='font-size:30pt'> **",
                        formatC(sum(Data1$Cantidad), big.mark = ".", decimal.mark = ","),
                        "**</span>"))
 
@@ -87,16 +87,19 @@ grafico1 <- ggplot(Data1, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Tipo)) 
   coord_polar(theta="y") +
   xlim(c(1.5, 4)) +
   theme_void() +
-  scale_fill_manual(values = Colores) +
+  scale_fill_manual(values = Colores,
+                    name = str_wrap("Situación motivo de la denuncia" ,width=20),
+                    labels = str_wrap(c("Violencia de género", "Violencia familiar"), width=15)) +
   labs(title="2.024",
        subtitle = "enero-septiembre") +
   theme(text=element_text(family="font"),
         legend.position = "right",
         plot.title = element_text(family="font", size=25, face="bold", hjust=0.5),
         plot.subtitle = element_text(family="font", size=15, face="italic", hjust=0.5),
-        legend.title = element_blank(),
+        legend.title = element_text(family="font", size=10),
         legend.text = element_text(size=15),
         legend.box.margin=margin(5,5,5,5),
+        legend.key.spacing.y = unit(0.5, "cm"),
         plot.background = element_rect(fill = "white", colour = NA))
 
 # Gráfico2
@@ -136,6 +139,6 @@ filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
 
 ggsave(filename = paste0(filename, ".png"),
        path = paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
-       plot=grafico, dpi=100, width=7, height=4.5)
+       plot=grafico, dpi=100, width=7, height=4)
 ggsave(filename = paste0(filename, ".svg"), path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
-       plot=grafico, dpi=72, width=7, height=4.5)
+       plot=grafico, dpi=72, width=7, height=4)

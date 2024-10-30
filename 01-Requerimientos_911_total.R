@@ -87,14 +87,15 @@ grafico1 <- ggplot(Data1, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Tipo)) 
   coord_polar(theta="y") +
   xlim(c(1.5, 4)) +
   theme_void() +
-  scale_fill_manual(values = Colores, labels = function(z) str_wrap(z, width=20)) +
+  scale_fill_manual(name = str_wrap("Situación motivo del requerimiento", width=20),
+                    values = Colores, labels = function(z) str_wrap(z, width=20)) +
   labs(title="2.024",
        subtitle = "enero-junio") +
   theme(text=element_text(family="font"),
         legend.position = "right",
         plot.title = element_text(family="font", size=25, face="bold", hjust=0.5),
         plot.subtitle = element_text(family="font", size=15, face="italic", hjust=0.5),
-        legend.title = element_blank(),
+        legend.title = element_text(size=10, family="font"),
         legend.text = element_text(size=12),
         legend.box.margin=margin(5,5,5,5),
         legend.key.spacing.y = unit(0.5, "cm"),
@@ -137,6 +138,6 @@ filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
 
 ggsave(filename = paste0(filename, ".png"),
        path = paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
-       plot=grafico, dpi=100, width=7, height=4)
+       plot=grafico, dpi=100, width=7, height=3.5)
 ggsave(filename = paste0(filename, ".svg"), path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
-       plot=grafico, dpi=72, width=7, height=4)
+       plot=grafico, dpi=72, width=7, height=3.5)

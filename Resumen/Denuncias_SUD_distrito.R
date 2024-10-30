@@ -53,19 +53,10 @@ grafico <- ggplot(Data, aes(x=reorder(Distrito, Orden), y=Porcentaje, fill=Distr
         plot.subtitle = element_text(size=15, family="font"),
         plot.caption = element_text(size=10, family="font", face="italic"),
         panel.grid.major = element_line(colour = "#F5F5F5"),
-        axis.text.x = element_text(size=15, margin = margin(t=10,r=0,b=0,l=0)),
+        axis.text.x = element_text(size=12, margin = margin(t=10,r=0,b=0,l=0)),
         axis.text.y = element_text(size=12, margin = margin(t=0,r=5,b=0,l=5)),
-        axis.title.x = element_text(size=12, margin = margin(t=5,r=0,b=5,l=0)),
-        axis.title.y = element_text(size=12, margin = margin(t=0,r=5,b=0,l=0)))
-
-# Imagen
-# imagen <- ggdraw() +  draw_image("https://www.justiciasalta.gov.ar/media/images/distritos_judiciales_web-2024.jpg?timestamp=20240312114917")
-imagen <- ggdraw() +
-  draw_image(paste0(dirname(rstudioapi::getActiveDocumentContext()$path), "/Datos/Mapa_distritos_judiciales.jpg"))
-
-# Arrange
-grafico <- plot_grid(imagen, grafico, ncol=2) +
-  theme(plot.background = element_rect(fill = "white"))
+        axis.title.x = element_text(size=10, margin = margin(t=5,r=0,b=5,l=0)),
+        axis.title.y = element_text(size=10, margin = margin(t=0,r=5,b=0,l=0)))
 
 # Guardar gráfico
 filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
@@ -73,8 +64,8 @@ filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
 
 ggsave(filename = paste0(filename, ".png"),
        path = paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
-       plot=grafico, dpi=100, width=15, height=6)
+       plot=grafico, dpi=100, width=6, height=6)
 ggsave(filename = paste0(filename, ".svg"), path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
-       plot=grafico, dpi=72, width=15, height=6)
+       plot=grafico, dpi=72, width=6, height=6)
 
 # Fuente: Elaboración propia a partir de la información remitida por la Oficina de Violencia Familiar y de Género. Corte de Justicia de Salta
