@@ -56,5 +56,5 @@ grafico <- grafico +
 # Guardar gráfico
 ggsave(filename="Denuncias_SUD_tipo.png", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
        plot=grafico, dpi=100, width=7, height=5)
-ggsave(filename="Denuncias_SUD_tipo.svg", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
+ggsave(filename="Denuncias_SUD_tipo.pdf", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/pdf/"),
        plot=grafico, dpi=72, width=7, height=5)
