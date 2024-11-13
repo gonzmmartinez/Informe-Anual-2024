@@ -60,5 +60,5 @@ mapa_cor <- ggplot(Mapa_Salta) +
 # Guardar gráfico
 ggsave(filename="Mapa_poseen_area.png", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PNG/"),
        plot=mapa_cor, dpi=100, width=9, height=6)
-ggsave(filename="Mapa_poseen_area.svg", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/SVG/"),
+ggsave(filename="Mapa_poseen_area.pdf", path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/PDF/"),
        plot=mapa_cor, dpi=72, width=9, height=6)
