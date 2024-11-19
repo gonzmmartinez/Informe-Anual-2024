@@ -1,0 +1,595 @@
+Año,Trimestre,Mes,Mes_ord,Distrito,Organismo,Tipo,Cantidad
+2024,2,Abril,4,Cafayate,Comisarías,Familiar,8
+2024,2,Abril,4,Cafayate,Comisarías,Género,29
+2024,2,Abril,4,Cafayate,Comisarías,No penal,10
+2024,2,Abril,4,Cafayate,Fiscalías,Familiar,0
+2024,2,Abril,4,Cafayate,Fiscalías,Género,2
+2024,2,Abril,4,Cafayate,Fiscalías,No penal,0
+2024,2,Abril,4,Orán,Comisarías,Familiar,19
+2024,2,Abril,4,Orán,Comisarías,Género,201
+2024,2,Abril,4,Orán,Comisarías,No penal,106
+2024,2,Abril,4,Orán,Fiscalías,Familiar,0
+2024,2,Abril,4,Orán,Fiscalías,Género,3
+2024,2,Abril,4,Orán,Fiscalías,No penal,0
+2024,2,Abril,4,Orán,OVFG,Familiar,1
+2024,2,Abril,4,Orán,OVFG,Género,17
+2024,2,Abril,4,Orán,OVFG,No penal,4
+2024,2,Abril,4,Metán,Comisarías,Familiar,2
+2024,2,Abril,4,Metán,Comisarías,Género,144
+2024,2,Abril,4,Metán,Comisarías,No penal,35
+2024,2,Abril,4,Metán,Fiscalías,Familiar,0
+2024,2,Abril,4,Metán,Fiscalías,Género,5
+2024,2,Abril,4,Metán,Fiscalías,No penal,0
+2024,2,Abril,4,Metán,OVFG,Familiar,0
+2024,2,Abril,4,Metán,OVFG,Género,7
+2024,2,Abril,4,Metán,OVFG,No penal,5
+2024,2,Abril,4,Anta,Comisarías,Familiar,0
+2024,2,Abril,4,Anta,Comisarías,Género,23
+2024,2,Abril,4,Anta,Comisarías,No penal,13
+2024,2,Abril,4,Anta,Fiscalías,Familiar,0
+2024,2,Abril,4,Anta,Fiscalías,Género,4
+2024,2,Abril,4,Anta,Fiscalías,No penal,0
+2024,2,Abril,4,Anta,OVFG,Familiar,0
+2024,2,Abril,4,Anta,OVFG,Género,1
+2024,2,Abril,4,Anta,OVFG,No penal,7
+2024,2,Abril,4,Tartagal,Comisarías,Familiar,9
+2024,2,Abril,4,Tartagal,Comisarías,Género,225
+2024,2,Abril,4,Tartagal,Comisarías,No penal,135
+2024,2,Abril,4,Tartagal,Fiscalías,Familiar,0
+2024,2,Abril,4,Tartagal,Fiscalías,Género,2
+2024,2,Abril,4,Tartagal,Fiscalías,No penal,0
+2024,2,Abril,4,Tartagal,OVFG,Familiar,0
+2024,2,Abril,4,Tartagal,OVFG,Género,19
+2024,2,Abril,4,Tartagal,OVFG,No penal,13
+2024,2,Abril,4,Centro,Comisarías,Familiar,353
+2024,2,Abril,4,Centro,Comisarías,Género,933
+2024,2,Abril,4,Centro,Comisarías,No penal,522
+2024,2,Abril,4,Centro,Fiscalías,Familiar,2
+2024,2,Abril,4,Centro,Fiscalías,Género,5
+2024,2,Abril,4,Centro,Fiscalías,No penal,3
+2024,2,Abril,4,Centro,OOyD,Familiar,75
+2024,2,Abril,4,Centro,OOyD,Género,134
+2024,2,Abril,4,Centro,OOyD,No penal,16
+2024,2,Abril,4,Centro,OVFG,Familiar,0
+2024,2,Abril,4,Centro,OVFG,Género,7
+2024,2,Abril,4,Centro,OVFG,No penal,0
+2024,3,Agosto,8,Centro,Comisarías,Familiar,350
+2024,3,Agosto,8,Centro,Comisarías,Género,875
+2024,3,Agosto,8,Centro,Comisarías,No penal,441
+2024,3,Agosto,8,Centro,Fiscalías,Familiar,1
+2024,3,Agosto,8,Centro,Fiscalías,Género,3
+2024,3,Agosto,8,Centro,Fiscalías,No penal,0
+2024,3,Agosto,8,Centro,OOyD,Familiar,81
+2024,3,Agosto,8,Centro,OOyD,Género,166
+2024,3,Agosto,8,Centro,OOyD,No penal,54
+2024,3,Agosto,8,Centro,OVFG,Familiar,5
+2024,3,Agosto,8,Centro,OVFG,Género,27
+2024,3,Agosto,8,Centro,OVFG,No penal,12
+2024,3,Agosto,8,Cafayate,Comisarías,Familiar,3
+2024,3,Agosto,8,Cafayate,Comisarías,Género,39
+2024,3,Agosto,8,Cafayate,Comisarías,No penal,10
+2024,3,Agosto,8,Cafayate,Fiscalías,Familiar,0
+2024,3,Agosto,8,Cafayate,Fiscalías,Género,2
+2024,3,Agosto,8,Cafayate,Fiscalías,No penal,0
+2024,3,Agosto,8,Orán,Comisarías,Familiar,33
+2024,3,Agosto,8,Orán,Comisarías,Género,190
+2024,3,Agosto,8,Orán,Comisarías,No penal,91
+2024,3,Agosto,8,Orán,Fiscalías,Familiar,0
+2024,3,Agosto,8,Orán,Fiscalías,Género,0
+2024,3,Agosto,8,Orán,Fiscalías,No penal,0
+2024,3,Agosto,8,Orán,OVFG,Familiar,1
+2024,3,Agosto,8,Orán,OVFG,Género,22
+2024,3,Agosto,8,Orán,OVFG,No penal,5
+2024,3,Agosto,8,Metán,Comisarías,Familiar,3
+2024,3,Agosto,8,Metán,Comisarías,Género,135
+2024,3,Agosto,8,Metán,Comisarías,No penal,45
+2024,3,Agosto,8,Metán,Fiscalías,Familiar,0
+2024,3,Agosto,8,Metán,Fiscalías,Género,3
+2024,3,Agosto,8,Metán,Fiscalías,No penal,0
+2024,3,Agosto,8,Metán,OVFG,Familiar,0
+2024,3,Agosto,8,Metán,OVFG,Género,13
+2024,3,Agosto,8,Metán,OVFG,No penal,8
+2024,3,Agosto,8,Anta,Comisarías,Familiar,0
+2024,3,Agosto,8,Anta,Comisarías,Género,38
+2024,3,Agosto,8,Anta,Comisarías,No penal,17
+2024,3,Agosto,8,Anta,Fiscalías,Familiar,0
+2024,3,Agosto,8,Anta,Fiscalías,Género,0
+2024,3,Agosto,8,Anta,Fiscalías,No penal,0
+2024,3,Agosto,8,Anta,OVFG,Familiar,0
+2024,3,Agosto,8,Anta,OVFG,Género,0
+2024,3,Agosto,8,Anta,OVFG,No penal,6
+2024,3,Agosto,8,Tartagal,Comisarías,Familiar,7
+2024,3,Agosto,8,Tartagal,Comisarías,Género,216
+2024,3,Agosto,8,Tartagal,Comisarías,No penal,128
+2024,3,Agosto,8,Tartagal,Fiscalías,Familiar,0
+2024,3,Agosto,8,Tartagal,Fiscalías,Género,1
+2024,3,Agosto,8,Tartagal,Fiscalías,No penal,0
+2024,3,Agosto,8,Tartagal,OVFG,Familiar,0
+2024,3,Agosto,8,Tartagal,OVFG,Género,15
+2024,3,Agosto,8,Tartagal,OVFG,No penal,25
+2024,3,Julio,7,Centro,Comisarías,Familiar,316
+2024,3,Julio,7,Centro,Comisarías,Género,870
+2024,3,Julio,7,Centro,Comisarías,No penal,462
+2024,3,Julio,7,Centro,Fiscalías,Familiar,1
+2024,3,Julio,7,Centro,Fiscalías,Género,1
+2024,3,Julio,7,Centro,Fiscalías,No penal,0
+2024,3,Julio,7,Centro,OOyD,Familiar,67
+2024,3,Julio,7,Centro,OOyD,Género,128
+2024,3,Julio,7,Centro,OOyD,No penal,32
+2024,3,Julio,7,Centro,OVFG,Familiar,3
+2024,3,Julio,7,Centro,OVFG,Género,20
+2024,3,Julio,7,Centro,OVFG,No penal,6
+2024,3,Julio,7,Cafayate,Comisarías,Familiar,3
+2024,3,Julio,7,Cafayate,Comisarías,Género,41
+2024,3,Julio,7,Cafayate,Comisarías,No penal,16
+2024,3,Julio,7,Cafayate,Fiscalías,Familiar,0
+2024,3,Julio,7,Cafayate,Fiscalías,Género,1
+2024,3,Julio,7,Cafayate,Fiscalías,No penal,0
+2024,3,Julio,7,Orán,Comisarías,Familiar,35
+2024,3,Julio,7,Orán,Comisarías,Género,135
+2024,3,Julio,7,Orán,Comisarías,No penal,55
+2024,3,Julio,7,Orán,Fiscalías,Familiar,0
+2024,3,Julio,7,Orán,Fiscalías,Género,1
+2024,3,Julio,7,Orán,Fiscalías,No penal,0
+2024,3,Julio,7,Orán,OVFG,Familiar,1
+2024,3,Julio,7,Orán,OVFG,Género,13
+2024,3,Julio,7,Orán,OVFG,No penal,3
+2024,3,Julio,7,Metán,Comisarías,Familiar,8
+2024,3,Julio,7,Metán,Comisarías,Género,111
+2024,3,Julio,7,Metán,Comisarías,No penal,39
+2024,3,Julio,7,Metán,Fiscalías,Familiar,0
+2024,3,Julio,7,Metán,Fiscalías,Género,1
+2024,3,Julio,7,Metán,Fiscalías,No penal,0
+2024,3,Julio,7,Metán,OVFG,Familiar,0
+2024,3,Julio,7,Metán,OVFG,Género,12
+2024,3,Julio,7,Metán,OVFG,No penal,3
+2024,3,Julio,7,Anta,Comisarías,Familiar,1
+2024,3,Julio,7,Anta,Comisarías,Género,31
+2024,3,Julio,7,Anta,Comisarías,No penal,7
+2024,3,Julio,7,Anta,Fiscalías,Familiar,0
+2024,3,Julio,7,Anta,Fiscalías,Género,1
+2024,3,Julio,7,Anta,Fiscalías,No penal,0
+2024,3,Julio,7,Anta,OVFG,Familiar,0
+2024,3,Julio,7,Anta,OVFG,Género,2
+2024,3,Julio,7,Anta,OVFG,No penal,2
+2024,3,Julio,7,Tartagal,Comisarías,Familiar,10
+2024,3,Julio,7,Tartagal,Comisarías,Género,213
+2024,3,Julio,7,Tartagal,Comisarías,No penal,126
+2024,3,Julio,7,Tartagal,Fiscalías,Familiar,0
+2024,3,Julio,7,Tartagal,Fiscalías,Género,3
+2024,3,Julio,7,Tartagal,Fiscalías,No penal,0
+2024,3,Julio,7,Tartagal,OVFG,Familiar,0
+2024,3,Julio,7,Tartagal,OVFG,Género,6
+2024,3,Julio,7,Tartagal,OVFG,No penal,18
+2024,2,Junio,6,Centro,Comisarías,Familiar,352
+2024,2,Junio,6,Centro,Comisarías,Género,907
+2024,2,Junio,6,Centro,Comisarías,No penal,462
+2024,2,Junio,6,Centro,Fiscalías,Familiar,0
+2024,2,Junio,6,Centro,Fiscalías,Género,5
+2024,2,Junio,6,Centro,Fiscalías,No penal,0
+2024,2,Junio,6,Centro,OOyD,Familiar,61
+2024,2,Junio,6,Centro,OOyD,Género,121
+2024,2,Junio,6,Centro,OOyD,No penal,29
+2024,2,Junio,6,Centro,OVFG,Familiar,0
+2024,2,Junio,6,Centro,OVFG,Género,5
+2024,2,Junio,6,Centro,OVFG,No penal,0
+2024,2,Junio,6,Cafayate,Comisarías,Familiar,7
+2024,2,Junio,6,Cafayate,Comisarías,Género,41
+2024,2,Junio,6,Cafayate,Comisarías,No penal,9
+2024,2,Junio,6,Cafayate,Fiscalías,Familiar,0
+2024,2,Junio,6,Cafayate,Fiscalías,Género,3
+2024,2,Junio,6,Cafayate,Fiscalías,No penal,0
+2024,2,Junio,6,Orán,Comisarías,Familiar,18
+2024,2,Junio,6,Orán,Comisarías,Género,191
+2024,2,Junio,6,Orán,Comisarías,No penal,84
+2024,2,Junio,6,Orán,Fiscalías,Familiar,0
+2024,2,Junio,6,Orán,Fiscalías,Género,5
+2024,2,Junio,6,Orán,Fiscalías,No penal,0
+2024,2,Junio,6,Orán,OVFG,Familiar,0
+2024,2,Junio,6,Orán,OVFG,Género,13
+2024,2,Junio,6,Orán,OVFG,No penal,7
+2024,2,Junio,6,Metán,Comisarías,Familiar,3
+2024,2,Junio,6,Metán,Comisarías,Género,143
+2024,2,Junio,6,Metán,Comisarías,No penal,46
+2024,2,Junio,6,Metán,Fiscalías,Familiar,0
+2024,2,Junio,6,Metán,Fiscalías,Género,5
+2024,2,Junio,6,Metán,Fiscalías,No penal,0
+2024,2,Junio,6,Metán,OVFG,Familiar,0
+2024,2,Junio,6,Metán,OVFG,Género,19
+2024,2,Junio,6,Metán,OVFG,No penal,4
+2024,2,Junio,6,Anta,Comisarías,Familiar,1
+2024,2,Junio,6,Anta,Comisarías,Género,33
+2024,2,Junio,6,Anta,Comisarías,No penal,16
+2024,2,Junio,6,Anta,Fiscalías,Familiar,0
+2024,2,Junio,6,Anta,Fiscalías,Género,0
+2024,2,Junio,6,Anta,Fiscalías,No penal,0
+2024,2,Junio,6,Anta,OVFG,Familiar,0
+2024,2,Junio,6,Anta,OVFG,Género,1
+2024,2,Junio,6,Anta,OVFG,No penal,4
+2024,2,Junio,6,Tartagal,Comisarías,Familiar,10
+2024,2,Junio,6,Tartagal,Comisarías,Género,244
+2024,2,Junio,6,Tartagal,Comisarías,No penal,133
+2024,2,Junio,6,Tartagal,Fiscalías,Familiar,0
+2024,2,Junio,6,Tartagal,Fiscalías,Género,2
+2024,2,Junio,6,Tartagal,Fiscalías,No penal,0
+2024,2,Junio,6,Tartagal,OVFG,Familiar,0
+2024,2,Junio,6,Tartagal,OVFG,Género,10
+2024,2,Junio,6,Tartagal,OVFG,No penal,9
+2024,1,Marzo,3,Centro,Comisarías,Familiar,465
+2024,1,Marzo,3,Centro,Comisarías,Género,1208
+2024,1,Marzo,3,Centro,Comisarías,No penal,711
+2024,1,Marzo,3,Centro,Fiscalías,Familiar,1
+2024,1,Marzo,3,Centro,Fiscalías,Género,1
+2024,1,Marzo,3,Centro,Fiscalías,No penal,0
+2024,1,Marzo,3,Centro,OOyD,Familiar,60
+2024,1,Marzo,3,Centro,OOyD,Género,154
+2024,1,Marzo,3,Centro,OOyD,No penal,19
+2024,1,Marzo,3,Centro,OVFG,Familiar,1
+2024,1,Marzo,3,Centro,OVFG,Género,8
+2024,1,Marzo,3,Centro,OVFG,No penal,0
+2024,1,Marzo,3,Cafayate,Comisarías,Familiar,13
+2024,1,Marzo,3,Cafayate,Comisarías,Género,25
+2024,1,Marzo,3,Cafayate,Comisarías,No penal,11
+2024,1,Marzo,3,Cafayate,Fiscalías,Familiar,0
+2024,1,Marzo,3,Cafayate,Fiscalías,Género,2
+2024,1,Marzo,3,Cafayate,Fiscalías,No penal,0
+2024,1,Marzo,3,Orán,Comisarías,Familiar,35
+2024,1,Marzo,3,Orán,Comisarías,Género,179
+2024,1,Marzo,3,Orán,Comisarías,No penal,83
+2024,1,Marzo,3,Orán,Fiscalías,Familiar,0
+2024,1,Marzo,3,Orán,Fiscalías,Género,4
+2024,1,Marzo,3,Orán,Fiscalías,No penal,0
+2024,1,Marzo,3,Orán,OVFG,Familiar,1
+2024,1,Marzo,3,Orán,OVFG,Género,18
+2024,1,Marzo,3,Orán,OVFG,No penal,4
+2024,1,Marzo,3,Metán,Comisarías,Familiar,3
+2024,1,Marzo,3,Metán,Comisarías,Género,134
+2024,1,Marzo,3,Metán,Comisarías,No penal,49
+2024,1,Marzo,3,Metán,Fiscalías,Familiar,0
+2024,1,Marzo,3,Metán,Fiscalías,Género,1
+2024,1,Marzo,3,Metán,Fiscalías,No penal,0
+2024,1,Marzo,3,Metán,OVFG,Familiar,0
+2024,1,Marzo,3,Metán,OVFG,Género,10
+2024,1,Marzo,3,Metán,OVFG,No penal,6
+2024,1,Marzo,3,Anta,Comisarías,Familiar,0
+2024,1,Marzo,3,Anta,Comisarías,Género,33
+2024,1,Marzo,3,Anta,Comisarías,No penal,11
+2024,1,Marzo,3,Anta,Fiscalías,Familiar,0
+2024,1,Marzo,3,Anta,Fiscalías,Género,4
+2024,1,Marzo,3,Anta,Fiscalías,No penal,0
+2024,1,Marzo,3,Anta,OVFG,Familiar,0
+2024,1,Marzo,3,Anta,OVFG,Género,0
+2024,1,Marzo,3,Anta,OVFG,No penal,6
+2024,1,Marzo,3,Tartagal,Comisarías,Familiar,8
+2024,1,Marzo,3,Tartagal,Comisarías,Género,283
+2024,1,Marzo,3,Tartagal,Comisarías,No penal,181
+2024,1,Marzo,3,Tartagal,Fiscalías,Familiar,0
+2024,1,Marzo,3,Tartagal,Fiscalías,Género,1
+2024,1,Marzo,3,Tartagal,Fiscalías,No penal,0
+2024,1,Marzo,3,Tartagal,OVFG,Familiar,0
+2024,1,Marzo,3,Tartagal,OVFG,Género,7
+2024,1,Marzo,3,Tartagal,OVFG,No penal,27
+2024,2,Mayo,5,Centro,Comisarías,Familiar,271
+2024,2,Mayo,5,Centro,Comisarías,Género,798
+2024,2,Mayo,5,Centro,Comisarías,No penal,480
+2024,2,Mayo,5,Centro,Fiscalías,Familiar,0
+2024,2,Mayo,5,Centro,Fiscalías,Género,3
+2024,2,Mayo,5,Centro,Fiscalías,No penal,0
+2024,2,Mayo,5,Centro,OOyD,Familiar,80
+2024,2,Mayo,5,Centro,OOyD,Género,141
+2024,2,Mayo,5,Centro,OOyD,No penal,25
+2024,2,Mayo,5,Centro,OVFG,Familiar,0
+2024,2,Mayo,5,Centro,OVFG,Género,1
+2024,2,Mayo,5,Centro,OVFG,No penal,0
+2024,2,Mayo,5,Cafayate,Comisarías,Familiar,9
+2024,2,Mayo,5,Cafayate,Comisarías,Género,20
+2024,2,Mayo,5,Cafayate,Comisarías,No penal,17
+2024,2,Mayo,5,Cafayate,Fiscalías,Familiar,0
+2024,2,Mayo,5,Cafayate,Fiscalías,Género,1
+2024,2,Mayo,5,Cafayate,Fiscalías,No penal,0
+2024,2,Mayo,5,Orán,Comisarías,Familiar,31
+2024,2,Mayo,5,Orán,Comisarías,Género,179
+2024,2,Mayo,5,Orán,Comisarías,No penal,74
+2024,2,Mayo,5,Orán,Fiscalías,Familiar,0
+2024,2,Mayo,5,Orán,Fiscalías,Género,6
+2024,2,Mayo,5,Orán,Fiscalías,No penal,0
+2024,2,Mayo,5,Orán,OVFG,Familiar,2
+2024,2,Mayo,5,Orán,OVFG,Género,18
+2024,2,Mayo,5,Orán,OVFG,No penal,5
+2024,2,Mayo,5,Metán,Comisarías,Familiar,3
+2024,2,Mayo,5,Metán,Comisarías,Género,147
+2024,2,Mayo,5,Metán,Comisarías,No penal,45
+2024,2,Mayo,5,Metán,Fiscalías,Familiar,0
+2024,2,Mayo,5,Metán,Fiscalías,Género,4
+2024,2,Mayo,5,Metán,Fiscalías,No penal,0
+2024,2,Mayo,5,Metán,OVFG,Familiar,0
+2024,2,Mayo,5,Metán,OVFG,Género,17
+2024,2,Mayo,5,Metán,OVFG,No penal,3
+2024,2,Mayo,5,Anta,Comisarías,Familiar,1
+2024,2,Mayo,5,Anta,Comisarías,Género,24
+2024,2,Mayo,5,Anta,Comisarías,No penal,15
+2024,2,Mayo,5,Anta,Fiscalías,Familiar,0
+2024,2,Mayo,5,Anta,Fiscalías,Género,2
+2024,2,Mayo,5,Anta,Fiscalías,No penal,0
+2024,2,Mayo,5,Anta,OVFG,Familiar,0
+2024,2,Mayo,5,Anta,OVFG,Género,3
+2024,2,Mayo,5,Anta,OVFG,No penal,10
+2024,2,Mayo,5,Tartagal,Comisarías,Familiar,9
+2024,2,Mayo,5,Tartagal,Comisarías,Género,228
+2024,2,Mayo,5,Tartagal,Comisarías,No penal,107
+2024,2,Mayo,5,Tartagal,Fiscalías,Familiar,0
+2024,2,Mayo,5,Tartagal,Fiscalías,Género,4
+2024,2,Mayo,5,Tartagal,Fiscalías,No penal,0
+2024,2,Mayo,5,Tartagal,OVFG,Familiar,0
+2024,2,Mayo,5,Tartagal,OVFG,Género,5
+2024,2,Mayo,5,Tartagal,OVFG,No penal,13
+2024,3,Septiembre,9,Centro,Comisarías,Familiar,390
+2024,3,Septiembre,9,Centro,Comisarías,Género,1116
+2024,3,Septiembre,9,Centro,Comisarías,No penal,530
+2024,3,Septiembre,9,Centro,Fiscalías,Familiar,0
+2024,3,Septiembre,9,Centro,Fiscalías,Género,4
+2024,3,Septiembre,9,Centro,Fiscalías,No penal,0
+2024,3,Septiembre,9,Centro,OOyD,Familiar,94
+2024,3,Septiembre,9,Centro,OOyD,Género,167
+2024,3,Septiembre,9,Centro,OOyD,No penal,53
+2024,3,Septiembre,9,Centro,OVFG,Familiar,6
+2024,3,Septiembre,9,Centro,OVFG,Género,24
+2024,3,Septiembre,9,Centro,OVFG,No penal,25
+2024,3,Septiembre,9,Cafayate,Comisarías,Familiar,4
+2024,3,Septiembre,9,Cafayate,Comisarías,Género,38
+2024,3,Septiembre,9,Cafayate,Comisarías,No penal,8
+2024,3,Septiembre,9,Cafayate,Fiscalías,Familiar,0
+2024,3,Septiembre,9,Cafayate,Fiscalías,Género,0
+2024,3,Septiembre,9,Cafayate,Fiscalías,No penal,0
+2024,3,Septiembre,9,Orán,Comisarías,Familiar,25
+2024,3,Septiembre,9,Orán,Comisarías,Género,198
+2024,3,Septiembre,9,Orán,Comisarías,No penal,103
+2024,3,Septiembre,9,Orán,Fiscalías,Familiar,0
+2024,3,Septiembre,9,Orán,Fiscalías,Género,5
+2024,3,Septiembre,9,Orán,Fiscalías,No penal,0
+2024,3,Septiembre,9,Orán,OVFG,Familiar,1
+2024,3,Septiembre,9,Orán,OVFG,Género,20
+2024,3,Septiembre,9,Orán,OVFG,No penal,4
+2024,3,Septiembre,9,Metán,Comisarías,Familiar,4
+2024,3,Septiembre,9,Metán,Comisarías,Género,154
+2024,3,Septiembre,9,Metán,Comisarías,No penal,50
+2024,3,Septiembre,9,Metán,Fiscalías,Familiar,0
+2024,3,Septiembre,9,Metán,Fiscalías,Género,1
+2024,3,Septiembre,9,Metán,Fiscalías,No penal,0
+2024,3,Septiembre,9,Metán,OVFG,Familiar,0
+2024,3,Septiembre,9,Metán,OVFG,Género,15
+2024,3,Septiembre,9,Metán,OVFG,No penal,4
+2024,3,Septiembre,9,Anta,Comisarías,Familiar,0
+2024,3,Septiembre,9,Anta,Comisarías,Género,28
+2024,3,Septiembre,9,Anta,Comisarías,No penal,17
+2024,3,Septiembre,9,Anta,Fiscalías,Familiar,0
+2024,3,Septiembre,9,Anta,Fiscalías,Género,2
+2024,3,Septiembre,9,Anta,Fiscalías,No penal,0
+2024,3,Septiembre,9,Anta,OVFG,Familiar,0
+2024,3,Septiembre,9,Anta,OVFG,Género,0
+2024,3,Septiembre,9,Anta,OVFG,No penal,5
+2024,3,Septiembre,9,Tartagal,Comisarías,Familiar,10
+2024,3,Septiembre,9,Tartagal,Comisarías,Género,269
+2024,3,Septiembre,9,Tartagal,Comisarías,No penal,177
+2024,3,Septiembre,9,Tartagal,Fiscalías,Familiar,0
+2024,3,Septiembre,9,Tartagal,Fiscalías,Género,2
+2024,3,Septiembre,9,Tartagal,Fiscalías,No penal,0
+2024,3,Septiembre,9,Tartagal,OVFG,Familiar,0
+2024,3,Septiembre,9,Tartagal,OVFG,Género,13
+2024,3,Septiembre,9,Tartagal,OVFG,No penal,16
+2024,1,Febrero,2,Centro,Comisarías,Familiar,343
+2024,1,Febrero,2,Centro,Comisarías,Género,988
+2024,1,Febrero,2,Centro,Comisarías,No penal,620
+2024,1,Febrero,2,Centro,Fiscalías,Familiar,0
+2024,1,Febrero,2,Centro,Fiscalías,Género,6
+2024,1,Febrero,2,Centro,Fiscalías,No penal,0
+2024,1,Febrero,2,Centro,OOyD,Familiar,57
+2024,1,Febrero,2,Centro,OOyD,Género,124
+2024,1,Febrero,2,Centro,OOyD,No penal,27
+2024,1,Febrero,2,Centro,OVFG,Familiar,1
+2024,1,Febrero,2,Centro,OVFG,Género,11
+2024,1,Febrero,2,Centro,OVFG,No penal,0
+2024,1,Febrero,2,Cafayate,Comisarías,Familiar,6
+2024,1,Febrero,2,Cafayate,Comisarías,Género,39
+2024,1,Febrero,2,Cafayate,Comisarías,No penal,19
+2024,1,Febrero,2,Cafayate,Fiscalías,Familiar,0
+2024,1,Febrero,2,Cafayate,Fiscalías,Género,0
+2024,1,Febrero,2,Cafayate,Fiscalías,No penal,0
+2024,1,Febrero,2,Orán,Comisarías,Familiar,18
+2024,1,Febrero,2,Orán,Comisarías,Género,193
+2024,1,Febrero,2,Orán,Comisarías,No penal,76
+2024,1,Febrero,2,Orán,Fiscalías,Familiar,0
+2024,1,Febrero,2,Orán,Fiscalías,Género,3
+2024,1,Febrero,2,Orán,Fiscalías,No penal,0
+2024,1,Febrero,2,Orán,OVFG,Familiar,1
+2024,1,Febrero,2,Orán,OVFG,Género,16
+2024,1,Febrero,2,Orán,OVFG,No penal,16
+2024,1,Febrero,2,Metán,Comisarías,Familiar,3
+2024,1,Febrero,2,Metán,Comisarías,Género,152
+2024,1,Febrero,2,Metán,Comisarías,No penal,54
+2024,1,Febrero,2,Metán,Fiscalías,Familiar,0
+2024,1,Febrero,2,Metán,Fiscalías,Género,7
+2024,1,Febrero,2,Metán,Fiscalías,No penal,0
+2024,1,Febrero,2,Metán,OVFG,Familiar,1
+2024,1,Febrero,2,Metán,OVFG,Género,12
+2024,1,Febrero,2,Metán,OVFG,No penal,8
+2024,1,Febrero,2,Anta,Comisarías,Familiar,0
+2024,1,Febrero,2,Anta,Comisarías,Género,33
+2024,1,Febrero,2,Anta,Comisarías,No penal,14
+2024,1,Febrero,2,Anta,Fiscalías,Familiar,0
+2024,1,Febrero,2,Anta,Fiscalías,Género,3
+2024,1,Febrero,2,Anta,Fiscalías,No penal,0
+2024,1,Febrero,2,Anta,OVFG,Familiar,0
+2024,1,Febrero,2,Anta,OVFG,Género,1
+2024,1,Febrero,2,Anta,OVFG,No penal,10
+2024,1,Febrero,2,Tartagal,Comisarías,Familiar,4
+2024,1,Febrero,2,Tartagal,Comisarías,Género,246
+2024,1,Febrero,2,Tartagal,Comisarías,No penal,157
+2024,1,Febrero,2,Tartagal,Fiscalías,Familiar,0
+2024,1,Febrero,2,Tartagal,Fiscalías,Género,3
+2024,1,Febrero,2,Tartagal,Fiscalías,No penal,0
+2024,1,Febrero,2,Tartagal,OVFG,Familiar,0
+2024,1,Febrero,2,Tartagal,OVFG,Género,3
+2024,1,Febrero,2,Tartagal,OVFG,No penal,14
+2024,1,Enero,1,Centro,Comisarías,Familiar,357
+2024,1,Enero,1,Centro,Comisarías,Género,1081
+2024,1,Enero,1,Centro,Comisarías,No penal,656
+2024,1,Enero,1,Centro,Fiscalías,Familiar,0
+2024,1,Enero,1,Centro,Fiscalías,Género,1
+2024,1,Enero,1,Centro,Fiscalías,No penal,0
+2024,1,Enero,1,Centro,OOyD,Familiar,56
+2024,1,Enero,1,Centro,OOyD,Género,119
+2024,1,Enero,1,Centro,OOyD,No penal,18
+2024,1,Enero,1,Centro,OVFG,Familiar,0
+2024,1,Enero,1,Centro,OVFG,Género,2
+2024,1,Enero,1,Centro,OVFG,No penal,0
+2024,1,Enero,1,Cafayate,Fiscalías,Familiar,0
+2024,1,Enero,1,Cafayate,Fiscalías,Género,0
+2024,1,Enero,1,Cafayate,Fiscalías,No penal,0
+2024,1,Enero,1,Cafayate,Comisarías,Familiar,9
+2024,1,Enero,1,Cafayate,Comisarías,Género,34
+2024,1,Enero,1,Cafayate,Comisarías,No penal,19
+2024,1,Enero,1,Orán,Comisarías,Familiar,22
+2024,1,Enero,1,Orán,Comisarías,Género,212
+2024,1,Enero,1,Orán,Comisarías,No penal,104
+2024,1,Enero,1,Orán,Fiscalías,Familiar,0
+2024,1,Enero,1,Orán,Fiscalías,Género,0
+2024,1,Enero,1,Orán,Fiscalías,No penal,0
+2024,1,Enero,1,Orán,OVFG,Familiar,1
+2024,1,Enero,1,Orán,OVFG,Género,23
+2024,1,Enero,1,Orán,OVFG,No penal,7
+2024,1,Enero,1,Metán,Comisarías,Familiar,3
+2024,1,Enero,1,Metán,Comisarías,Género,171
+2024,1,Enero,1,Metán,Comisarías,No penal,59
+2024,1,Enero,1,Metán,Fiscalías,Familiar,0
+2024,1,Enero,1,Metán,Fiscalías,Género,0
+2024,1,Enero,1,Metán,Fiscalías,No penal,0
+2024,1,Enero,1,Metán,OVFG,Familiar,0
+2024,1,Enero,1,Metán,OVFG,Género,9
+2024,1,Enero,1,Metán,OVFG,No penal,4
+2024,1,Enero,1,Anta,Comisarías,Familiar,0
+2024,1,Enero,1,Anta,Comisarías,Género,42
+2024,1,Enero,1,Anta,Comisarías,No penal,10
+2024,1,Enero,1,Anta,Fiscalías,Familiar,0
+2024,1,Enero,1,Anta,Fiscalías,Género,1
+2024,1,Enero,1,Anta,Fiscalías,No penal,0
+2024,1,Enero,1,Anta,OVFG,Familiar,0
+2024,1,Enero,1,Anta,OVFG,Género,0
+2024,1,Enero,1,Anta,OVFG,No penal,6
+2024,1,Enero,1,Tartagal,Comisarías,Familiar,12
+2024,1,Enero,1,Tartagal,Comisarías,Género,271
+2024,1,Enero,1,Tartagal,Comisarías,No penal,156
+2024,1,Enero,1,Tartagal,Fiscalías,Familiar,0
+2024,1,Enero,1,Tartagal,Fiscalías,Género,3
+2024,1,Enero,1,Tartagal,Fiscalías,No penal,0
+2024,1,Enero,1,Tartagal,OVFG,Familiar,0
+2024,1,Enero,1,Tartagal,OVFG,Género,0
+2024,1,Enero,1,Tartagal,OVFG,No penal,9
+2023,4,Diciembre,12,Centro,Comisarías,Familiar,337
+2023,4,Diciembre,12,Centro,Comisarías,Género,1027
+2023,4,Diciembre,12,Centro,Comisarías,No penal,537
+2023,4,Diciembre,12,Centro,Fiscalías,Familiar,0
+2023,4,Diciembre,12,Centro,Fiscalías,Género,3
+2023,4,Diciembre,12,Centro,Fiscalías,No penal,0
+2023,4,Diciembre,12,Centro,OOyD,Familiar,68
+2023,4,Diciembre,12,Centro,OOyD,Género,146
+2023,4,Diciembre,12,Centro,OOyD,No penal,19
+2023,4,Diciembre,12,Centro,OVFG,Familiar,8
+2023,4,Diciembre,12,Centro,OVFG,Género,17
+2023,4,Diciembre,12,Centro,OVFG,No penal,11
+2023,4,Diciembre,12,Cafayate,Comisarías,Familiar,9
+2023,4,Diciembre,12,Cafayate,Comisarías,Género,36
+2023,4,Diciembre,12,Cafayate,Comisarías,No penal,15
+2023,4,Diciembre,12,Cafayate,Fiscalías,Familiar,1
+2023,4,Diciembre,12,Cafayate,Fiscalías,Género,0
+2023,4,Diciembre,12,Cafayate,Fiscalías,No penal,0
+2023,4,Diciembre,12,Orán,Comisarías,Familiar,8
+2023,4,Diciembre,12,Orán,Comisarías,Género,216
+2023,4,Diciembre,12,Orán,Comisarías,No penal,64
+2023,4,Diciembre,12,Orán,Fiscalías,Familiar,0
+2023,4,Diciembre,12,Orán,Fiscalías,Género,4
+2023,4,Diciembre,12,Orán,Fiscalías,No penal,0
+2023,4,Diciembre,12,Orán,OVFG,Familiar,0
+2023,4,Diciembre,12,Orán,OVFG,Género,30
+2023,4,Diciembre,12,Orán,OVFG,No penal,8
+2023,4,Diciembre,12,Metán,Comisarías,Familiar,5
+2023,4,Diciembre,12,Metán,Comisarías,Género,174
+2023,4,Diciembre,12,Metán,Comisarías,No penal,51
+2023,4,Diciembre,12,Metán,Fiscalías,Familiar,0
+2023,4,Diciembre,12,Metán,Fiscalías,Género,4
+2023,4,Diciembre,12,Metán,Fiscalías,No penal,0
+2023,4,Diciembre,12,Metán,OVFG,Familiar,0
+2023,4,Diciembre,12,Metán,OVFG,Género,2
+2023,4,Diciembre,12,Metán,OVFG,No penal,7
+2023,4,Diciembre,12,Anta,Comisarías,Familiar,1
+2023,4,Diciembre,12,Anta,Comisarías,Género,32
+2023,4,Diciembre,12,Anta,Comisarías,No penal,6
+2023,4,Diciembre,12,Anta,Fiscalías,Familiar,0
+2023,4,Diciembre,12,Anta,Fiscalías,Género,3
+2023,4,Diciembre,12,Anta,Fiscalías,No penal,0
+2023,4,Diciembre,12,Anta,OVFG,Familiar,0
+2023,4,Diciembre,12,Anta,OVFG,Género,1
+2023,4,Diciembre,12,Anta,OVFG,No penal,16
+2023,4,Diciembre,12,Tartagal,Comisarías,Familiar,14
+2023,4,Diciembre,12,Tartagal,Comisarías,Género,293
+2023,4,Diciembre,12,Tartagal,Comisarías,No penal,169
+2023,4,Diciembre,12,Tartagal,Fiscalías,Familiar,0
+2023,4,Diciembre,12,Tartagal,Fiscalías,Género,1
+2023,4,Diciembre,12,Tartagal,Fiscalías,No penal,0
+2023,4,Diciembre,12,Tartagal,OVFG,Familiar,0
+2023,4,Diciembre,12,Tartagal,OVFG,Género,6
+2023,4,Diciembre,12,Tartagal,OVFG,No penal,8
+2023,4,Noviembre,11,Centro,Comisarías,Familiar,314
+2023,4,Noviembre,11,Centro,Comisarías,Género,978
+2023,4,Noviembre,11,Centro,Comisarías,No penal,476
+2023,4,Noviembre,11,Centro,Fiscalías,Familiar,1
+2023,4,Noviembre,11,Centro,Fiscalías,Género,6
+2023,4,Noviembre,11,Centro,Fiscalías,No penal,0
+2023,4,Noviembre,11,Centro,OOyD,Familiar,45
+2023,4,Noviembre,11,Centro,OOyD,Género,134
+2023,4,Noviembre,11,Centro,OOyD,No penal,39
+2023,4,Noviembre,11,Centro,OVFG,Familiar,6
+2023,4,Noviembre,11,Centro,OVFG,Género,17
+2023,4,Noviembre,11,Centro,OVFG,No penal,18
+2023,4,Noviembre,11,Cafayate,Comisarías,Familiar,6
+2023,4,Noviembre,11,Cafayate,Comisarías,Género,24
+2023,4,Noviembre,11,Cafayate,Comisarías,No penal,33
+2023,4,Noviembre,11,Cafayate,Fiscalías,Familiar,0
+2023,4,Noviembre,11,Cafayate,Fiscalías,Género,2
+2023,4,Noviembre,11,Cafayate,Fiscalías,No penal,0
+2023,4,Noviembre,11,Orán,Comisarías,Familiar,5
+2023,4,Noviembre,11,Orán,Comisarías,Género,170
+2023,4,Noviembre,11,Orán,Comisarías,No penal,78
+2023,4,Noviembre,11,Orán,Fiscalías,Familiar,0
+2023,4,Noviembre,11,Orán,Fiscalías,Género,2
+2023,4,Noviembre,11,Orán,Fiscalías,No penal,0
+2023,4,Noviembre,11,Orán,OVFG,Familiar,0
+2023,4,Noviembre,11,Orán,OVFG,Género,39
+2023,4,Noviembre,11,Orán,OVFG,No penal,9
+2023,4,Noviembre,11,Metán,Comisarías,Familiar,0
+2023,4,Noviembre,11,Metán,Comisarías,Género,194
+2023,4,Noviembre,11,Metán,Comisarías,No penal,56
+2023,4,Noviembre,11,Metán,Fiscalías,Familiar,0
+2023,4,Noviembre,11,Metán,Fiscalías,Género,2
+2023,4,Noviembre,11,Metán,Fiscalías,No penal,0
+2023,4,Noviembre,11,Metán,OVFG,Familiar,0
+2023,4,Noviembre,11,Metán,OVFG,Género,6
+2023,4,Noviembre,11,Metán,OVFG,No penal,18
+2023,4,Noviembre,11,Anta,Comisarías,Familiar,0
+2023,4,Noviembre,11,Anta,Comisarías,Género,17
+2023,4,Noviembre,11,Anta,Comisarías,No penal,15
+2023,4,Noviembre,11,Anta,Fiscalías,Familiar,0
+2023,4,Noviembre,11,Anta,Fiscalías,Género,2
+2023,4,Noviembre,11,Anta,Fiscalías,No penal,0
+2023,4,Noviembre,11,Anta,OVFG,Familiar,0
+2023,4,Noviembre,11,Anta,OVFG,Género,0
+2023,4,Noviembre,11,Anta,OVFG,No penal,14
+2023,4,Noviembre,11,Tartagal,Comisarías,Familiar,3
+2023,4,Noviembre,11,Tartagal,Comisarías,Género,267
+2023,4,Noviembre,11,Tartagal,Comisarías,No penal,187
+2023,4,Noviembre,11,Tartagal,Fiscalías,Familiar,0
+2023,4,Noviembre,11,Tartagal,Fiscalías,Género,2
+2023,4,Noviembre,11,Tartagal,Fiscalías,No penal,0
+2023,4,Noviembre,11,Tartagal,OVFG,Familiar,0
+2023,4,Noviembre,11,Tartagal,OVFG,Género,8
+2023,4,Noviembre,11,Tartagal,OVFG,No penal,13
