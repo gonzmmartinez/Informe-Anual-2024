@@ -16,9 +16,9 @@ showtext_auto()
 
 # Leer datos
 Raw <- read.csv(file=paste0(dirname(rstudioapi::getActiveDocumentContext()$path), "/Datos/Denuncias_SUD_totales.csv")) %>%
-  mutate(Tipo = case_when(Tipo == "Penal por violencia de género" ~ "Penal y civil por violencia de género y/o familiar",
-                          Tipo == "Penal por violencia familiar" ~ "Penal y civil por violencia de género y/o familiar",
-                          Tipo == "Violencia no penal" ~ "Penal y civil por violencia de género y/o familiar",
+  mutate(Tipo = case_when(Tipo == "Penal por violencia de género" ~ "Violencia de género y/o familiar",
+                          Tipo == "Penal por violencia familiar" ~ "Violencia de género y/o familiar",
+                          Tipo == "Violencia no penal" ~ "Violencia de género y/o familiar",
                           Tipo == "Penal" ~ "Otros delitos penales"))
 
 Data1 <- Raw %>%
@@ -27,7 +27,7 @@ Data1 <- Raw %>%
   summarise(Cantidad = sum(Cantidad)) %>%
   mutate(Porcentaje = 100 * Cantidad / sum(Cantidad)) %>%
   mutate(Tipo = factor(Tipo,
-                         levels = c("Penal y civil por violencia de género y/o familiar",
+                         levels = c("Violencia de género y/o familiar",
                                     "Otros delitos penales"))) %>%
   arrange(Tipo) %>%
   mutate(Label = paste0("<span style='font-size:10pt'>**",
@@ -42,7 +42,7 @@ Data1 <- Raw %>%
   ungroup()
 
 # Definir colores
-Colores <- c("Penal y civil por violencia de género y/o familiar" = "#a5549c",
+Colores <- c("Violencia de género y/o familiar" = "#a5549c",
              "Otros delitos penales" = "#1daa6a")
 
 # Total
