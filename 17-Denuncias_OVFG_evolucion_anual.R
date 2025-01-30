@@ -4,7 +4,7 @@ rm(list = ls())
 # Funciones
 `%ni%` <- Negate(`%in%`)
 
-# Librerías
+# Librer?as
 library(ggplot2)
 library(dplyr)
 library(stringr)
@@ -22,9 +22,9 @@ Raw <- read.csv(paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Da
 
 # Crear serie temporal
 Data_trimestral <- Raw %>%
-  mutate(Año = factor(formatC(Año, big.mark=".", decimal.mark=",", format="d"))) %>%
-  filter(Tipo %in% c("Familiar","Género")) %>%
-  group_by(Año, Trimestre) %>%
+  mutate(AÃ±o = factor(formatC(AÃ±o, big.mark=".", decimal.mark=",", format="d"))) %>%
+  filter(Tipo %in% c("Familiar","GÃ©nero")) %>%
+  group_by(AÃ±o, Trimestre) %>%
   summarise(Cantidad = sum(Frecuencia)) %>%
   ungroup
 
@@ -33,25 +33,25 @@ Data_ts <- ts(Data_trimestral$Cantidad, start=c(2020, 1), frequency=4)
 # Crear modelo ARIMA
 Modelo_ARIMA <- auto.arima(Data_ts)
 
-# Crear proyección
+# Crear proyecci?n
 Prediccion <- forecast(Modelo_ARIMA, h=1)
 
-# Añadir nuevo dato
+# A?adir nuevo dato
 Data <- Data_trimestral %>%
-  group_by(Año) %>%
+  group_by(A?o) %>%
   summarise(Cantidad = sum(Cantidad)) %>%
   ungroup %>%
-  add_row(Año = c("2.016", "2.017", "2.018", "2.019"), Cantidad = c(14695, 13619, 14584, 21707))
+  add_row(A?o = c("2.016", "2.017", "2.018", "2.019"), Cantidad = c(14695, 13619, 14584, 21707))
 
-Estimacion <- (Data %>% filter(Año == "2.024"))$Cantidad + round(as.numeric(Prediccion$mean))
+Estimacion <- (Data %>% filter(A?o == "2.024"))$Cantidad + round(as.numeric(Prediccion$mean))
 
 # Colores
 Colores <- c("#6e3169", "#ec6489")
 
-# Gráfico
-grafico <- ggplot(Data, aes(x=Año, y=Cantidad)) +
+# Gr?fico
+grafico <- ggplot(Data, aes(x=A?o, y=Cantidad)) +
   geom_col(aes(fill=Cantidad), width=0.9) +
-  annotate(geom="rect", xmin=8.55, xmax=9.45, ymin=(Data %>% filter(Año == "2.024"))$Cantidad, ymax=Estimacion,
+  annotate(geom="rect", xmin=8.55, xmax=9.45, ymin=(Data %>% filter(A?o == "2.024"))$Cantidad, ymax=Estimacion,
            linetype=2, color="gray", fill="gray", alpha=0.5) +
   geom_text(aes(y=Cantidad, label=formatC(Cantidad, big.mark = ".", decimal.mark = ",", format="d")), family="font", fontface="bold",
             color="white", size=6, vjust=2) +
@@ -59,10 +59,10 @@ grafico <- ggplot(Data, aes(x=Año, y=Cantidad)) +
            label = formatC(Estimacion, big.mark = ".", decimal.mark=",", format="d"),
            vjust=2, family="font", fontface="bold", color="black", size=6) +
   annotate(geom="text", x=9, y=Estimacion,
-           label = str_wrap("Proyección del número total de denuncias para el año 2.024 completo", width=25),
+           label = str_wrap("Proyecci?n del n?mero total de denuncias para el a?o 2.024 completo", width=25),
            vjust=-0.4, family="font", fontface="italic", color="gray", size=3) +
   labs(title="",
-       x="Año", y="Cantidad") +
+       x="A?o", y="Cantidad") +
   scale_y_continuous(limits=c(0,max(Data$Cantidad+7000)), labels = function(z) formatC(z, big.mark=".", decimal.mark=",", format="d")) +
   theme_light() +
   scale_fill_gradient2(low="#f2904c", high="#c93131", mid="#e55a3e", midpoint=mean(Data$Cantidad)) +
@@ -77,7 +77,7 @@ grafico <- ggplot(Data, aes(x=Año, y=Cantidad)) +
         axis.title.x = element_text(size=20),
         axis.title.y = element_text(size=20))
 
-# Guardar gráfico
+# Guardar gr?fico
 filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
                     str_length(unlist(basename(rstudioapi::getSourceEditorContext()$path)))-2)
 
@@ -87,4 +87,4 @@ ggsave(filename = paste0(filename, ".png"),
 ggsave(filename = paste0(filename, ".pdf"), path=paste0(dirname(rstudioapi::getActiveDocumentContext()$path),"/Graficos/pdf/"),
        plot=grafico, dpi=72, width=12, height=7)
 
-# Fuente: Elaboración propia a partir de la información remitida por la Oficina de Violencia Familiar y de Género. Corte de Justicia de Salta
+# Fuente: Elaboraci?n propia a partir de la informaci?n remitida por la Oficina de Violencia Familiar y de G?nero. Corte de Justicia de Salta
