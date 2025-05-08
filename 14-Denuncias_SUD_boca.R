@@ -1,7 +1,7 @@
 # Limpiar todo
 rm(list = ls())
 
-# Librerías
+# Librer?as
 library(ggplot2)
 library(dplyr)
 library(stringr)
@@ -16,7 +16,7 @@ showtext_auto()
 
 # Leer datos
 Raw <- read.csv(file=paste0(dirname(rstudioapi::getActiveDocumentContext()$path), "/Datos/Denuncias_SUD.csv")) %>%
-  filter(Año == 2024)
+  filter(A?o == 2024)
 
 Data <- Raw %>%
   group_by(Organismo) %>%
@@ -43,13 +43,13 @@ Total <- paste0(paste0("<span style='font-size:20pt'>",
                        formatC(sum(Data$Cantidad), big.mark = ".", decimal.mark = ","),
                        "**</span>"))
 
-c# Definir colores
+# Definir colores
 Colores <- c("OVFG" = "#6e3169",
              "OOyD" = "#e54c7c",
-             "Fiscalías" = "#f2904c",
-             "Comisarías" = "#1daa6a")
+             "Fiscal?as" = "#f2904c",
+             "Comisar?as" = "#1daa6a")
 
-# Gráfico
+# Gr?fico
 grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Organismo)) +
   geom_rect() +
   geom_richtext(y=0, x=1.5,
@@ -80,7 +80,7 @@ grafico <- ggplot(Data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=Organismo
 grafico <- grafico +
   theme(plot.background = element_rect(fill = "white", colour = NA))
 
-# Guardar gráfico
+# Guardar gr?fico
 filename <- str_sub(basename(rstudioapi::getSourceEditorContext()$path), 1,
                     str_length(unlist(basename(rstudioapi::getSourceEditorContext()$path)))-2)
 
